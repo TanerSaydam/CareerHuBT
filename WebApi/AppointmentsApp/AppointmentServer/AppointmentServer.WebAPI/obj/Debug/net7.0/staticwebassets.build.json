@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BBNHJv12WxNOxwJ2OlhMl8f3PWw89H/fNGXP3nZ90og=",
+  "Source": "AppointmentServer.WebAPI",
+  "BasePath": "_content/AppointmentServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

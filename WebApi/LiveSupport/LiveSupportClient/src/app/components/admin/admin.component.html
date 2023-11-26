@@ -1,0 +1,36 @@
+<div class="form-group m">
+    <h1 class="text-center">Avaible Chat List</h1>
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Customer Name</th>
+                <th>Message Date</th>
+                <th>Subject</th>
+                <th>Who Last Answer</th>
+                <th>Last Answer Date</th>
+                <th>Customer Support</th>
+                <th>Status</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let room of chatRooms let index = index">
+                <td>{{index + 1}}</td>
+                <td>{{room.clientNameLastname.value}}</td>
+                <td>{{room.createdDate | date :'dd.MM.yyyy HH:dd:ss'}}</td>
+                <td>{{room.subject.value}}</td>
+                <td>{{room.whoIsTheLastAnswer.value}}</td>
+                <td>{{room.lastAnswerDate | date :'dd.MM.yyyy HH:dd:ss'}}</td>
+                <td>{{room.user?.name?.value}}</td>
+                <td>{{room.isClosed ? 'Kapalı' : 'Açık'}}</td>
+                <td>
+                    <button (click)="connectConversation(room.id)" class="btn btn-primary">
+                        <i class="fa-solid fa-comments"></i>
+                        Connect Conversation
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

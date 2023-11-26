@@ -1,0 +1,16 @@
+@RestaurantServer.WebApi_HostAddress = http://localhost:5066
+
+POST {{RestaurantServer.WebApi_HostAddress}}/api/Tables/Create
+Content-Type: application/json
+Accept: application/json
+{
+  "number": 3
+}
+
+###
+
+POST {{RestaurantServer.WebApi_HostAddress}}/api/Tables/GetAll
+Content-Type: application/json
+Accept: application/json
+{
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HU994cep4KQ2yw4uUMvN2sj+AWrru9bnLXIKD9JCs2Y=",
+  "Source": "LiveSupportServer.WebApi",
+  "BasePath": "_content/LiveSupportServer.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

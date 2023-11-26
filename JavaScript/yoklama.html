@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+        }
+
+
+        input, select{
+            padding: 5px;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="margin-bottom: 5px;">
+        <span style="margin-bottom: 5px;">Çalışan Adı</span>
+        <br>
+        <input style="width: 50%;" id="name" type="text">
+    </div>
+    <div style="margin-bottom: 5px;">
+        <span style="margin-bottom: 5px;">Bölümü</span>
+        <br>
+        <select style="width: 50%;" class="profession">
+            <option>Muhasebe</option>
+            <option>Üretim</option>
+            <option>Finans</option>
+        </select>
+    </div>
+    <button onclick="save()">Kaydet</button>
+    <hr>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Çalışan Adı</th>
+                <th>Bölümü</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <hr>
+    <button onclick="showWhoIsNotHere()">Kim Burada Değil Göster</button>
+    <br>
+    <ul>
+
+    </ul>
+
+
+        <script>
+
+            const personels = [
+                {
+                    name: "Taner Saydam",
+                    profession: "Software Trainer",
+                    isHere: false
+                },
+                {
+                    name: "Mahmut Demirken",
+                    profession: "IT & Software I Guess",
+                    isHere: false
+                },
+                {
+                    name: "Volkan Kirt",
+                    profession: "Next Generation Software",
+                    isHere: false
+                }
+            ]
+
+            let count = 0;
+            writePersonelsToTable();
+            // const bodyElement = document.querySelector("body");
+            // bodyElement.innerHTML = "<h1>Taner Saydam</h1>"
+
+        function save() {
+            const inputElement = document.getElementById("name");
+            const name = inputElement.value;
+
+            const selectElement = document.querySelector(".profession");
+            const profession = selectElement.value;
+
+
+            const personel = {
+                name: name,
+                profession: profession,
+                isHere: false
+            };
+
+            personels.push(personel);
+
+            writePersonelsToTable();
+
+            inputElement.value = "";
+            inputElement.focus();
+
+            //left ctrl+left alt + enter tusunun yanındaki virgül işareti
+
+
+            // count++; //1 2 3 
+            // const tbodyElement = document.querySelector("tbody");
+
+
+            // let text = `
+            // <tr>
+            //     <td>${count}</td>
+            //     <td>${name}</td>
+            //     <td>${profession}</td>
+            //     <td>
+            //         <input type="checkbox">
+            //     </td>
+            // </tr>
+            // `
+
+
+            // tbodyElement.innerHTML += text;
+        }
+     
+
+        function writePersonelsToTable(){            
+            const tbodyElement = document.querySelector("tbody");
+            tbodyElement.innerHTML = "";
+
+            for(const index in personels){
+                count++;
+                let text = `
+                <tr>
+                    <td>${count}</td>
+                    <td>${personels[index].name}</td>
+                    <td>${personels[index].profession}</td>
+                    <td>
+                        <input data-id="${index}" onchange="changePersonelIsHereOptions(event)" type="checkbox">
+                    </td>
+                </tr>
+                `
+
+                tbodyElement.innerHTML += text;
+            }
+            
+        }
+
+        function changePersonelIsHereOptions(event){
+            const isHere = event.target.checked;
+            const index = event.target.dataset["id"];
+
+            personels[index].isHere = isHere;            
+        }
+    
+        function showWhoIsNotHere(){
+            const ulElement = document.querySelector("ul");
+            ulElement.innerHTML = "";
+            for(let p of personels){
+                if(p.isHere == false){
+                    ulElement.innerHTML += `<li>${p.name}</li>`
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

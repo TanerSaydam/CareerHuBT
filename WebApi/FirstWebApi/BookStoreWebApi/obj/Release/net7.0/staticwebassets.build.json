@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "aSercUfuF3siAfsMI0DwbHunDZ/pSgf2o88bxFUpv/Q=",
+  "Source": "BookStoreWebApi",
+  "BasePath": "_content/BookStoreWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookStoreWebApi\\wwwroot",
+      "Source": "BookStoreWebApi",
+      "ContentRoot": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreWebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\3b1a5a07-b007-4d73-bc0f-4061572ba6f5.jpg",
+      "SourceId": "BookStoreWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreWebApi",
+      "RelativePath": "images/3b1a5a07-b007-4d73-bc0f-4061572ba6f5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3b1a5a07-b007-4d73-bc0f-4061572ba6f5.jpg"
+    },
+    {
+      "Identity": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\85f7e28a-59e1-4002-b9c7-8bde9b5b70ef.jpg",
+      "SourceId": "BookStoreWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreWebApi",
+      "RelativePath": "images/85f7e28a-59e1-4002-b9c7-8bde9b5b70ef.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\85f7e28a-59e1-4002-b9c7-8bde9b5b70ef.jpg"
+    },
+    {
+      "Identity": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\e01652f4-4557-40a1-bd85-22dcfc4c601a.jpg",
+      "SourceId": "BookStoreWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreWebApi",
+      "RelativePath": "images/e01652f4-4557-40a1-bd85-22dcfc4c601a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e01652f4-4557-40a1-bd85-22dcfc4c601a.jpg"
+    },
+    {
+      "Identity": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\ee5ad01d-c8bf-4bd3-b894-71ffb82da349.jpg",
+      "SourceId": "BookStoreWebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreWebApi",
+      "RelativePath": "images/ee5ad01d-c8bf-4bd3-b894-71ffb82da349.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ee5ad01d-c8bf-4bd3-b894-71ffb82da349.jpg"
+    }
+  ]
+}

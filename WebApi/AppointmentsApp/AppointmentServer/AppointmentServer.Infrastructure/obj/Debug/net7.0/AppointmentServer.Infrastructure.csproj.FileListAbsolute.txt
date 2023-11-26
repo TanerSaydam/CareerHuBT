@@ -1,0 +1,17 @@
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Infrastructure.deps.json
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Infrastructure.runtimeconfig.json
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Infrastructure.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Infrastructure.pdb
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Domain.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\bin\Debug\net7.0\AppointmentServer.Domain.pdb
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.AssemblyInfo.cs
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.csproj.CopyComplete
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\refint\AppointmentServer.Infrastructure.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.pdb
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\AppointmentServer.Infrastructure.genruntimeconfig.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Infrastructure\obj\Debug\net7.0\ref\AppointmentServer.Infrastructure.dll

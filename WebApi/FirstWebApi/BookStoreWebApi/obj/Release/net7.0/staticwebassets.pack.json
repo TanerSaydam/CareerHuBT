@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\3b1a5a07-b007-4d73-bc0f-4061572ba6f5.jpg",
+      "PackagePath": "staticwebassets\\images\\3b1a5a07-b007-4d73-bc0f-4061572ba6f5.jpg"
+    },
+    {
+      "Id": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\85f7e28a-59e1-4002-b9c7-8bde9b5b70ef.jpg",
+      "PackagePath": "staticwebassets\\images\\85f7e28a-59e1-4002-b9c7-8bde9b5b70ef.jpg"
+    },
+    {
+      "Id": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\e01652f4-4557-40a1-bd85-22dcfc4c601a.jpg",
+      "PackagePath": "staticwebassets\\images\\e01652f4-4557-40a1-bd85-22dcfc4c601a.jpg"
+    },
+    {
+      "Id": "C:\\CareerHubt\\FirstWebApi\\BookStoreWebApi\\wwwroot\\images\\ee5ad01d-c8bf-4bd3-b894-71ffb82da349.jpg",
+      "PackagePath": "staticwebassets\\images\\ee5ad01d-c8bf-4bd3-b894-71ffb82da349.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.BookStoreWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.BookStoreWebApi.props",
+      "PackagePath": "build\\BookStoreWebApi.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BookStoreWebApi.props",
+      "PackagePath": "buildMultiTargeting\\BookStoreWebApi.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.BookStoreWebApi.props",
+      "PackagePath": "buildTransitive\\BookStoreWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

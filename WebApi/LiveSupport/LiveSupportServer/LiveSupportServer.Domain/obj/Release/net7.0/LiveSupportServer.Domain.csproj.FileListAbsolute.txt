@@ -1,0 +1,12 @@
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\bin\Release\net7.0\LiveSupportServer.Domain.deps.json
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\bin\Release\net7.0\LiveSupportServer.Domain.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\bin\Release\net7.0\LiveSupportServer.Domain.pdb
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.csproj.AssemblyReference.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.AssemblyInfoInputs.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.AssemblyInfo.cs
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.csproj.CoreCompileInputs.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\refint\LiveSupportServer.Domain.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\LiveSupportServer.Domain.pdb
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Release\net7.0\ref\LiveSupportServer.Domain.dll

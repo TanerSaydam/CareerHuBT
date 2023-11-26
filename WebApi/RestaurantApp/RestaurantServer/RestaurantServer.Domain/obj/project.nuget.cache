@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l3z4+blta1X6OZfg06YrtBA3Vv5DRb2MWTc6jq4irNpQF3V+JChUeihwBF+gG+FLtv/vYIlNS05gmh5e+hacVw==",
+  "success": true,
+  "projectFilePath": "C:\\CareerHubt\\RestaurantApp\\RestaurantServer\\RestaurantServer.Domain\\RestaurantServer.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taner\\.nuget\\packages\\genericfileservice\\8.0.0\\genericfileservice.8.0.0.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

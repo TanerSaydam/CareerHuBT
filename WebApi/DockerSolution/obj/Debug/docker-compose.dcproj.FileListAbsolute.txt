@@ -1,0 +1,13 @@
+C:\CareerHubt\DockerSolution\bin\Debug\DockerSolution.TestWebApi.deps.json
+C:\CareerHubt\DockerSolution\bin\Debug\DockerSolution.TestWebApi.runtimeconfig.json
+C:\CareerHubt\DockerSolution\bin\Debug\appsettings.Development.json
+C:\CareerHubt\DockerSolution\bin\Debug\appsettings.json
+C:\CareerHubt\DockerSolution\bin\Debug\DockerSolution.TestWebApi.exe
+C:\CareerHubt\DockerSolution\bin\Debug\DockerSolution.TestWebApi.dll
+C:\CareerHubt\DockerSolution\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\CareerHubt\DockerSolution\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\CareerHubt\DockerSolution\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\CareerHubt\DockerSolution\bin\Debug\DockerSolution.TestWebApi.pdb
+C:\CareerHubt\DockerSolution\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\CareerHubt\DockerSolution\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\CareerHubt\DockerSolution\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.BenchMark\bin\Release\net8.0\194b4e69-0259-41c4-9117-2a4137bf1642
+// command took 1.66 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.BenchMark\bin\Release\net8.0\194b4e69-0259-41c4-9117-2a4137bf1642

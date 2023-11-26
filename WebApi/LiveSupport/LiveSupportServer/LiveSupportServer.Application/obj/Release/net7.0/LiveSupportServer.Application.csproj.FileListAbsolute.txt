@@ -1,0 +1,15 @@
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Release\net7.0\LiveSupportServer.Application.deps.json
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Release\net7.0\LiveSupportServer.Application.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Release\net7.0\LiveSupportServer.Application.pdb
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Release\net7.0\LiveSupportServer.Domain.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Release\net7.0\LiveSupportServer.Domain.pdb
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.csproj.AssemblyReference.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.AssemblyInfoInputs.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.AssemblyInfo.cs
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.csproj.CoreCompileInputs.cache
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.csproj.CopyComplete
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\refint\LiveSupportServer.Application.dll
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\LiveSupportServer.Application.pdb
+C:\CareerHubt\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Release\net7.0\ref\LiveSupportServer.Application.dll

@@ -1,0 +1,11 @@
+C:\CareerHubt\Application\bin\Debug\net7.0\Application.deps.json
+C:\CareerHubt\Application\bin\Debug\net7.0\Application.dll
+C:\CareerHubt\Application\bin\Debug\net7.0\Application.pdb
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.dll
+C:\CareerHubt\Application\obj\Debug\net7.0\refint\Application.dll
+C:\CareerHubt\Application\obj\Debug\net7.0\Application.pdb
+C:\CareerHubt\Application\obj\Debug\net7.0\ref\Application.dll

@@ -1,0 +1,87 @@
+<div class="container">
+    <div class="timetable-img text-center">
+        <img src="img/content/timetable.png" alt="">
+    </div>
+    <div class="table-responsive">
+        <div class="form-group col-4 mb-2" style="float: right;">
+            <input (change)="changeSelectedWeek()" [(ngModel)]="week" type="week" class="form-control">
+        </div>
+        <div class="form-group">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr class="bg-light-gray">
+                        <th class="text-uppercase">Time
+                        </th>
+                        <th *ngFor="let w of selectedWeeks" class="text-uppercase">
+                            {{w.dayName}}
+                            <p>{{w.date}}</p>
+                        </th>                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr *ngFor="let h of hours">
+                        <td class="align-middle">{{h}}:00</td>
+                        <td *ngFor="let w of selectedWeeks"> <!-- 15.10.2023 -->
+                            <span style="float: left;" (click)="getAppointment(h,w.date)" data-bs-toggle="modal"
+                            *ngIf="getPatient(h,w.date) !== undefined"
+                                data-bs-target="#exampleModal"
+                                class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">
+                                {{getPatient(h,w.date)?.name}}                                
+                            </span>
+                            <span style="float: left;" (click)="getAppointment(h,w.date)" data-bs-toggle="modal" data-bs-target="#exampleModal" *ngIf="getPatient(h,w.date) === undefined" class="
+                            btn btn-warning btn-sm">
+                                Randevu Ata
+                            </span>
+                            <button style="float: right;" *ngIf="getPatient(h,w.date) !== undefined" class="btn btn-sm btn-outline-danger" (click)="cancelAppointment(h,w.date)">
+                                <i class="fa fa-x"></i>
+                            </button>
+                        </td>                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form #appointmentForm="ngForm" (ngSubmit)="setAppointment()" autocomplete="off">
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        Hasta Adı
+                        <input type="text" name="name" class="form-control" [(ngModel)]="appointment.patient.name">
+                    </div>
+                    <div class="form-group">
+                        T.C. Numarası
+                        <input (change)="findPatientByIdentityNumber()" type="text" name="identityNumber" class="form-control"
+                            [(ngModel)]="appointment.patient.identityNumber">
+                    </div>
+                    <div class="form-group">
+                        Telefon Numarası
+                        <input type="text" name="phoneNumber" class="form-control"
+                            [(ngModel)]="appointment.patient.phoneNumber">
+                    </div>
+                    <div class="form-group">
+                        Mail Adresi
+                        <input type="email" name="email" class="form-control" [(ngModel)]="appointment.patient.email">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button (click)="setAppointment()" type="submit" class="btn btn-primary"
+                        data-bs-dismiss="modal">Randevu Oluştur</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

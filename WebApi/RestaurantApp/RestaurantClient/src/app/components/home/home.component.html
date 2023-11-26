@@ -1,0 +1,22 @@
+<div class="row">
+    @for(table of tables; track table){
+        <div routerLink="/order/{{table.id}}" class="col-3 mt-2" style="position: relative;">
+            <img src="/assets/table.png" style="width: 100%; border-radius: 50px;" alt="">
+            <h1 style="position: absolute; top: 30px; right: 150px;">
+                Masa {{table.number}}
+            </h1>
+            @if(table.isAvailable){
+                <i 
+                    class="fa-solid fa-wine-glass-empty text-success" 
+                    style="position: absolute; top: 30px; right: 50px; font-size: 50px;">
+                </i>
+            }@else {
+                <i 
+                    class="fa-solid fa-wine-glass text-dark" 
+                    style="position: absolute; top: 30px; right: 50px; font-size: 50px;">
+                </i>                
+            }
+        </div>
+    }
+    
+</div>

@@ -1,0 +1,4 @@
+docker run --name livesupport-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=LiveSupportDb -p 5432:5432 -d postgres
+
+
+optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=admin;Database=LiveSupportDb;");

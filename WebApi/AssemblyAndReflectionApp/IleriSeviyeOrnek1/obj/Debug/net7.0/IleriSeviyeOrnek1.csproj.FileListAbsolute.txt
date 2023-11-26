@@ -1,0 +1,14 @@
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\bin\Debug\net7.0\IleriSeviyeOrnek1.exe
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\bin\Debug\net7.0\IleriSeviyeOrnek1.deps.json
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\bin\Debug\net7.0\IleriSeviyeOrnek1.runtimeconfig.json
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\bin\Debug\net7.0\IleriSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\bin\Debug\net7.0\IleriSeviyeOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.AssemblyInfoInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.AssemblyInfo.cs
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.csproj.CoreCompileInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\refint\IleriSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\IleriSeviyeOrnek1.genruntimeconfig.cache
+C:\CareerHubt\AssemblyAndReflectionApp\IleriSeviyeOrnek1\obj\Debug\net7.0\ref\IleriSeviyeOrnek1.dll

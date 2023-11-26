@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DockerSolution.TestWebApi.props" />
+</Project>

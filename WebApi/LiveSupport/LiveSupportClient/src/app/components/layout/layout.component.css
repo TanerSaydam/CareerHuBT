@@ -1,0 +1,28 @@
+body{
+    position: relative;
+}
+
+.comment-balloon{
+    color: #ccc;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 70px;       
+}
+
+.comment-balloon:hover{
+    color: black;
+}
+
+.comment-div{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 1;
+    bottom: 110px;
+    right: 50px;
+}

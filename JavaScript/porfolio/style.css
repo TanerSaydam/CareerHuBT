@@ -1,0 +1,152 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 8px 20px;
+    position: fixed;
+    top: 0;
+    width: 97%;;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    border-radius: 8px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(59, 57, 57);
+}
+
+#home{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+#home div{
+    width: 50%;
+    text-align: center;    
+}
+
+#home div h1{
+    font-size: 5rem;
+}
+
+#home div h2{
+    font-size: 2.5rem;
+}
+
+#home div img{
+    width: 100%;
+}
+
+#skills h1, #about h1, #contact h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#skills ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#skills ul li img{
+    width: 90%;
+    max-width: 220px;
+}
+
+#about{
+    padding: 20px 100px;
+    background-color: #f1f1f1;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+#contact form div input, #contact form div textarea{
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+#contact form div button{
+    width: 100%;
+    font-size: 1rem;
+    margin-left: 7px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f1f1f1;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+footer{
+    background-color: rgb(24, 23, 23);
+}
+
+footer ul{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li img{
+    width: 45px;
+}
+
+.container-loader{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    background-color: rgba(214, 209, 209, 0.5);
+}
+
+.loader{
+    width: 50px;
+    height: 50px;    
+    border-radius: 50px;
+    border: 10px solid;
+    border-left-color: transparent;
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}

@@ -1,0 +1,35 @@
+.conversation-div{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.you{
+    border-radius: 20px;
+    background-color: #202C33;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.me{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #005C4B;
+    color: white;
+    margin-bottom: 20px;
+    width: 50%;
+    float: right;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid;
+}

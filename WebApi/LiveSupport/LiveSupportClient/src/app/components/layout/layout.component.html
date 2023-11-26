@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" *ngIf="!auth.isAuth" routerLink="/">Logo</a>
+      <a class="navbar-brand" *ngIf="auth.isAuth" routerLink="/admin">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" *ngIf="!auth.isAuth">
+            <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item" *ngIf="auth.isAuth">
+            <a class="nav-link active" aria-current="page" routerLink="/admin">Home</a>
+          </li>
+        </ul>
+        <button *ngIf="!auth.isAuth" class="btn btn-outline-success" routerLink="/login">
+          <i class="fa-solid fa-lock"></i>
+          Sign In
+        </button>
+        <button *ngIf="auth.isAuth" class="btn btn-outline-danger" (click)="signOut()">
+          <i class="fa-solid fa-lock"></i>
+          Sign Out
+        </button>
+      </div>
+    </div>
+  </nav>
+
+<router-outlet></router-outlet>
+
+<div class="col-3 comment-div" *ngIf="balloon.showCommentDiv">
+    <form #chatForm="ngForm" autocomplete="off" (ngSubmit)="startConversation(chatForm)">
+        <p>Merhaba ben LiveSupport AI. Size nasıl yardımcı olabilirim?</p>
+        <div class="form-group mt-1">
+            <input required minlength="5" ngModel name="nameLastname" placeholder="Jhon Doe" class="form-control">
+        </div>
+        <div class="form-group mt-1">
+            <input required minlength="3" ngModel name="chat" placeholder="Write me something..." class="form-control">
+        </div>
+        <div class="form-group mt-1">
+            <button [disabled]="!chatForm.valid" type="submit" class="btn btn-primary w-100">
+                Send 
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+<i *ngIf="balloon.shoCommentBalloon" (click)="changeShowCommentDiv()" class="fa-solid fa-comment comment-balloon">    
+</i>

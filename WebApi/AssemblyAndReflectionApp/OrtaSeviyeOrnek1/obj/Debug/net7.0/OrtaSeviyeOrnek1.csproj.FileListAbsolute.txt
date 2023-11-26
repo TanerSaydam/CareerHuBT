@@ -1,0 +1,14 @@
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\bin\Debug\net7.0\OrtaSeviyeOrnek1.exe
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\bin\Debug\net7.0\OrtaSeviyeOrnek1.deps.json
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\bin\Debug\net7.0\OrtaSeviyeOrnek1.runtimeconfig.json
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\bin\Debug\net7.0\OrtaSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\bin\Debug\net7.0\OrtaSeviyeOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.AssemblyInfoInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.AssemblyInfo.cs
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.csproj.CoreCompileInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\refint\OrtaSeviyeOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\OrtaSeviyeOrnek1.genruntimeconfig.cache
+C:\CareerHubt\AssemblyAndReflectionApp\OrtaSeviyeOrnek1\obj\Debug\net7.0\ref\OrtaSeviyeOrnek1.dll

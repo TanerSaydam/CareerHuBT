@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hFpYpCozqIfETo60o4Elv5IwPDuMIBFVXJ5V4VDkFPzesTG23RASv1VzT4S+u8RAIZ9dJmewpmEW2NXmNFTA8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taner\\source\\repos\\AppointmentsApp\\AppointmentServer\\AppointmentServer.Domain\\AppointmentServer.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taner\\.nuget\\packages\\ulid\\1.3.3\\ulid.1.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

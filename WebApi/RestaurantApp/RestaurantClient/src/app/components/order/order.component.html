@@ -1,0 +1,55 @@
+
+@if(tableNumber == 0){
+<app-order-loading></app-order-loading>
+}@else{
+    <h1 class="alert alert-light text-center" style="position: relative;">
+        <i routerLink="/" class="fa-solid fa-house"  style="position: absolute; left: 10px; cursor: pointer;"></i>
+        <span>
+            Masa {{tableNumber}}        
+        </span>    
+    </h1>
+    <div class="row mt-2">
+        <div class="col-9">
+            <div class="row mt-2">
+                @for(product of products;track product){
+                <div class="col-3 mt-2" (click)="addOrder(product)">
+                    <div class="card product">
+                        <div class="card-header">
+                            <img loading="lazy" defaultImage="/assets/product-placeholder.png" [lazyLoad]="product.coverImage" [title]="product.name">
+                            <h1 class="alert alert-dark text-center mt-2">
+                                {{product.price | trCurrency:'₺':true}}
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card mt-3" style="min-height: 1000px;">
+                <h1 class="alert alert-dark text-center">
+                    {{total | trCurrency:'₺':true}}
+                </h1>
+                <ul>
+                    @for(order of orders; track order){
+                        <li class="mb-2" style="position: relative;">
+                            <figure class="image">
+                                <img defaultImage="/assets/product-placeholder.png" [lazyLoad]="order.product.coverImage">
+                            </figure>
+                            <div class="text">
+                                <span class="price">{{order.price | trCurrency:'₺':true}}</span>
+                                <h3>{{order.product.name}}</h3>
+                                <p>{{order.product.category}}</p>
+                                <p (click)="changeOrderStatus(order.id)" style="cursor: pointer; user-select: none;" [ngClass]="changeOrderStatusClass(order.status)">
+                                    {{order.status}}
+                                </p>
+                                <i (click)="removeOrder(order.id)" class="fa-solid fa-trash trash"></i>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+}
+

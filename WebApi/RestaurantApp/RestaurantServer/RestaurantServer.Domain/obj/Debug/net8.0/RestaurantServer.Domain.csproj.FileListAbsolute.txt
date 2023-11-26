@@ -1,0 +1,13 @@
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\bin\Debug\net8.0\RestaurantServer.Domain.deps.json
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\bin\Debug\net8.0\RestaurantServer.Domain.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\bin\Debug\net8.0\RestaurantServer.Domain.pdb
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.AssemblyInfoInputs.cache
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.AssemblyInfo.cs
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.csproj.CoreCompileInputs.cache
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.sourcelink.json
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\refint\RestaurantServer.Domain.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.pdb
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\ref\RestaurantServer.Domain.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Domain\obj\Debug\net8.0\RestaurantServer.Domain.csproj.AssemblyReference.cache

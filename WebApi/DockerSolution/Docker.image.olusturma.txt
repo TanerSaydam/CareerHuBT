@@ -1,0 +1,13 @@
+Bu kod projeni docker image yapýyor
+docker build -t testwebapi:latest .
+
+Bu kod imageleri görüntülüyor. Eðer liste içerisinde yukarýdaki image in varsa image baþarýlý demektir
+docker images
+docker login
+docker tag testwebapi:latest kullaniciadi/testwebapi:latest
+docker push kullaniciadi/testwebapi:latest
+
+bu da indirip çalýþtýrma kodu
+
+docker pull tanersaydam/testwebapi
+docker run -d -p 8080:80 tanersaydam/testwebapi:latest

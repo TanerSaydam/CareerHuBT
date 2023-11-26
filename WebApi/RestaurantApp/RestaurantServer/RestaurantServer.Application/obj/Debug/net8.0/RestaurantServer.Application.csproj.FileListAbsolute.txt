@@ -1,0 +1,16 @@
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\bin\Debug\net8.0\RestaurantServer.Application.deps.json
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\bin\Debug\net8.0\RestaurantServer.Application.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\bin\Debug\net8.0\RestaurantServer.Application.pdb
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\bin\Debug\net8.0\RestaurantServer.Domain.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\bin\Debug\net8.0\RestaurantServer.Domain.pdb
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.csproj.AssemblyReference.cache
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.AssemblyInfoInputs.cache
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.AssemblyInfo.cs
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.csproj.CoreCompileInputs.cache
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.sourcelink.json
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.csproj.CopyComplete
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\refint\RestaurantServer.Application.dll
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\RestaurantServer.Application.pdb
+C:\CareerHubt\RestaurantApp\RestaurantServer\RestaurantServer.Application\obj\Debug\net8.0\ref\RestaurantServer.Application.dll

@@ -1,0 +1,42 @@
+{
+  "aboutMe": {
+    "id": 1,
+    "name": "Taner Saydam",
+    "profession": "Software Developer | Trainer",
+    "avatar": "https://tanersaydam.net/assets/profile-favicon.jpg",
+    "profileImage": "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg",
+    "about": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae tenetur minus illum eveniet, officiis veritatis quae accusamus asperiores esse reiciendis, quo provident est, quidem odit eius cupiditate maxime excepturi.Qui, consequuntur maxime repellendus praesentium harum animi quia iure accusamus iusto natus eligendi odit eius ad a deleniti enim error, facere aperiam. Natus quidem laudantium aliquam ullam corrupti accusamus officia.Ab esse ut in tempora est. Asperiores deleniti rerum obcaecati totam excepturi? Sed quasi nihil facere incidunt sint a voluptate delectus quia explicabo omnis, illo necessitatibus quas placeat doloremque excepturi!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore beatae tenetur minus illum eveniet, officiis veritatis quae accusamus asperiores esse reiciendis, quo provident est, quidem odit eius cupiditate maxime excepturi.Qui, consequuntur maxime repellendus praesentium harum animi quia iure accusamus iusto natus eligendi odit eius ad a deleniti enim error, facere aperiam. Natus quidem laudantium aliquam ullam corrupti accusamus officia.Ab esse ut in tempora est. Asperiores deleniti rerum obcaecati totam excepturi? Sed quasi nihil facere incidunt sint a voluptate delectus quia explicabo omnis, illo necessitatibus quas placeat doloremque excepturi!</p>"
+  },
+  "navigations": [
+    {
+      "id": 1,
+      "path": "./edit.html",
+      "name": "Edit",
+      "icon": "fa fa-edit"
+    },
+    {
+      "id": 2,
+      "path": "./index.html",
+      "name": "Home",
+      "icon": "fa fa-home"
+    },
+    {
+      "id": 3,
+      "path": "#skills",
+      "name": "Skills",
+      "icon": "fa fa-gear"
+    },
+    {
+      "id": 4,
+      "path": "#about",
+      "name": "About",
+      "icon": "fa fa-gear"
+    },
+    {
+      "id": 5,
+      "path": "#contact",
+      "name": "Contact",
+      "icon": "fa fa-gear"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test NodeJs API</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <button onclick="getTodos()">Get Todo List</button>
+    <ul>
+
+    </ul>
+
+
+    <script>
+        function getTodos(){
+            const el = document.querySelector("ul");
+            let text = "";
+            fetch("http://localhost:5000/api/gettodos")
+            .then(res=> res.json())
+            .then(data => {
+                for(let d of data){
+                    text += "<li>" + d + "</li>"
+                }
+
+                el.innerHTML = text;
+            })
+        }
+    </script>
+</body>
+</html>

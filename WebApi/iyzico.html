@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js" integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function PaymentRequest(){
+            axios.get("https://iyzico-test.ecnorow.com/api/Values/PaymentWithIyzico")            
+            .then(data => {
+                const text = data.data.htmlContent;
+                console.log(text);
+            })
+        }
+    </script>
+</head>
+<body>
+    <h1>Iyzico</h1>
+    <button onclick="PaymentRequest()">Api Request</button>
+    <a href="./IyzicoPayment.html">Ödeme Sayfasına Git</a>
+</body>
+</html>

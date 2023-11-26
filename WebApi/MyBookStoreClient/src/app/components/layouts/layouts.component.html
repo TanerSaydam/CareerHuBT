@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">e-Book Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+          </li>         
+        </ul>
+        <button class="btn me-1 position-relative"
+        routerLink="/shopping-carts"
+        [ngClass]="shopping.count === 0 ? 'btn-outline-primary' : 'btn-outline-danger'">
+            <i class="fa-solid fa-cart-shopping" [ngClass]="shopping.count > 0 ? 'fa-bounce' : ''"></i>
+            <span *ngIf="shopping.count > 0" class="position-absolute top-100 start-0 translate-middle badge rounded-pill bg-danger">
+                {{shopping.count}}
+              </span>
+        </button>
+        <button class="btn btn-outline-dark">
+            <i class="fa-solid fa-user-lock" [ngClass]="shopping.count > 0 ? 'fa-fade' : ''"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>

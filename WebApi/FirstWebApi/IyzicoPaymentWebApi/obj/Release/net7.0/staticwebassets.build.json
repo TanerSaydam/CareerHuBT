@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZQcmqHO9KmP7lL2xtgK7triiCbTDfN+K1mbqwau2CcU=",
+  "Source": "IyzicoPaymentWebApi",
+  "BasePath": "_content/IyzicoPaymentWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

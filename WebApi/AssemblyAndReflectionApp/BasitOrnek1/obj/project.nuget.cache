@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zpIj8n+IEPiXzXPDh0FxT1EFZb8SybuNq+f593y0tX5D4La5qgfO/EqI4C4F8b9x3vAsa+LNToKh+kzg+4WPvg==",
+  "success": true,
+  "projectFilePath": "C:\\CareerHubt\\AssemblyAndReflectionApp\\BasitOrnek1\\BasitOrnek1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taner\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

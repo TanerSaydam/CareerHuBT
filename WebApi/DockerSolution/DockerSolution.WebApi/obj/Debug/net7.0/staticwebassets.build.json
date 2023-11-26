@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1wCdEUbEliVHMp5UgILU7EJq8NtFBwjFTQGfSJXxxQc=",
+  "Source": "DockerSolution.WebApi",
+  "BasePath": "_content/DockerSolution.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

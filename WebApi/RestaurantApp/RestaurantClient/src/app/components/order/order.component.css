@@ -1,0 +1,40 @@
+img{
+    width: 100%;
+}
+
+.product{
+    cursor: pointer;
+}
+
+.product:hover{
+    transform: scale(1.03);
+}
+
+.image{
+    width: 100px;
+}
+
+ul{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li{
+    display: flex;
+    gap:5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.trash{
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    cursor: pointer; 
+    font-size: 18px;
+}
+
+.trash:hover{
+    transform: scale(1.03);
+    color: #dc3545;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Api Sitem</h1>
+    <button onclick="yoklamaSitesineApiIstegiYap()">Api İsteği Yap</button>
+    <button onclick="clearUl()">Clear</button>   
+    <div id="root"></div>
+    <script>
+        function clearUl(){
+            const ulElement = document.querySelector("ul");
+            ulElement.innerHTML = "";
+        }
+
+        function yoklamaSitesineApiIstegiYap(){
+            fetch("./yoklama.html")
+            .then(res=> res.text())
+            .then(data=>{
+                const root =document.getElementById("root");
+                root.innerHTML = data;
+            });
+        }
+
+        function getApiRequest(){
+            fetch("https://jsonplaceholder.typicode.com/todos")
+        .then(res=> res.json())
+        .then(data=> {
+            const ulElement = document.querySelector("ul");
+            ulElement.innerHTML = "";
+            for(let d of data){
+                ulElement.innerHTML += `<li>${d.title}</li>`
+            }
+        })
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\bin\Debug\net7.0\AppointmentServer.Domain.deps.json
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\bin\Debug\net7.0\AppointmentServer.Domain.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\bin\Debug\net7.0\AppointmentServer.Domain.pdb
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.csproj.AssemblyReference.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.AssemblyInfoInputs.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.AssemblyInfo.cs
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\refint\AppointmentServer.Domain.dll
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\AppointmentServer.Domain.pdb
+C:\Users\taner\source\repos\AppointmentsApp\AppointmentServer\AppointmentServer.Domain\obj\Debug\net7.0\ref\AppointmentServer.Domain.dll

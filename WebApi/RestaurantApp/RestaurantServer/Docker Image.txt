@@ -1,0 +1,3 @@
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql:latest
+
+"Server=localhost;Port=3306;Database=restaurant_db;User=root;Password=password;TreatTinyAsBoolean=true;"

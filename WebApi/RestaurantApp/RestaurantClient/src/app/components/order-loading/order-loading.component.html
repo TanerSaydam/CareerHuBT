@@ -1,0 +1,77 @@
+<h1 class="alert alert-light text-center placeholder-glow" style="position: relative;">
+    <i routerLink="/" class="fa-solid fa-house"  style="position: absolute; left: 10px; cursor: pointer;"></i>
+    <span class="placeholder">
+        Masa 0        
+    </span>    
+</h1>
+<div class="row mt-2">
+    <div class="col-9">
+        <div class="row mt-2">
+            @for(product of products;track product){
+            <div class="col-3 mt-2">
+                <div class="card product">
+                    <div class="card-header placeholder-glow">
+                        <img class="placeholder" [src]="product.coverImage" [title]="product.name">
+                        <h1 class="alert alert-dark text-center mt-2 placeholder">
+                            {{product.price}}
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="card mt-3 placeholder-glow" style="min-height: 1000px;">
+            <h1 class="alert alert-dark text-center placeholder">
+                0
+            </h1>
+            <ul>
+                <li class="mb-2" style="position: relative;">
+                    <figure class="image placeholder-glow">
+                        <img class="placeholder" src="/assets/product-placeholder.png">
+                    </figure>
+                    <div class="text placeholder-glow">
+                        <span class="price placeholder">100</span>
+                        <h3 class="placeholder">Ürün Adı</h3>
+                        <p class="placeholder">Ürün Kategorisi</p>
+                        <p class="placeholder" style="cursor: pointer; user-select: none;">
+                            Sipariş Durumu
+                        </p>
+                        <i class="fa-solid fa-trash trash placeholder"></i>
+                    </div>
+                </li>
+
+                <li class="mb-2" style="position: relative;">
+                    <figure class="image placeholder-glow">
+                        <img class="placeholder" src="/assets/product-placeholder.png">
+                    </figure>
+                    <div class="text placeholder-glow">
+                        <span class="price placeholder">100</span>
+                        <h3 class="placeholder">Ürün Adı</h3>
+                        <p class="placeholder">Ürün Kategorisi</p>
+                        <p class="placeholder" style="cursor: pointer; user-select: none;">
+                            Sipariş Durumu
+                        </p>
+                        <i class="fa-solid fa-trash trash placeholder"></i>
+                    </div>
+                </li>
+
+                <li class="mb-2" style="position: relative;">
+                    <figure class="image placeholder-glow">
+                        <img class="placeholder" src="/assets/product-placeholder.png">
+                    </figure>
+                    <div class="text placeholder-glow">
+                        <span class="price placeholder">100</span>
+                        <h3 class="placeholder">Ürün Adı</h3>
+                        <p class="placeholder">Ürün Kategorisi</p>
+                        <p class="placeholder" style="cursor: pointer; user-select: none;">
+                            Sipariş Durumu
+                        </p>
+                        <i class="fa-solid fa-trash trash placeholder"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

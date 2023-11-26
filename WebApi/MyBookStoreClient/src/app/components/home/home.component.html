@@ -1,0 +1,66 @@
+<nav class="d-flex justify-content-between align-items-center mt-3">
+    <h4>Home Page</h4>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+</nav>
+
+<div class="mt-3">    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active" *ngFor="let b of carousel">
+            <img [src]="'assets/img/' + b.imageUrl" height="250" style="object-fit: contain;" class="d-block w-100" alt="...">           
+          </div>          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="mt-3">
+    <div class="form-group">
+        <input type="search" [(ngModel)]="request.search" (keydown.enter)="getAllBook()" placeholder="Aranacak değer..." class="form-control">
+    </div>
+    <div class="row mt-2">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let b of books">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <img 
+                        [src]="'assets/img/' + b.imageUrl"
+                        class="card-img-top mt-1" height="250" style="object-fit: contain;">
+                </div>
+                <div class="card-header text-center">
+                    <h5 class="card-title">
+                        
+                        {{b.name.substring(0,20)}}<span *ngIf="b.name.length > 20">...</span>
+                    </h5>
+                    <p>{{b.author}}</p>
+                </div>
+                <div class="card-body">
+
+                    <p class="card-text">
+                       {{ b.summary.substring(0,217)}} <span *ngIf="b.summary.length >217">...</span>
+                    </p>
+                    <button class="btn btn-outline-secondary w-100 d-flex justify-content-between align-items-center"
+                        (click)="addShoppingCard(b)">
+                        <span class="text-danger" style="text-decoration: line-through;">{{((b.dailyPrice.amount + 20) | currency: '': '': '1.2-2')}}</span>
+                        <span>{{(b.dailyPrice.amount | currency: '': '': '1.2-2')}} {{b.dailyPrice.currency}}</span>
+                        <i class="fa-solid fa-cart-plus" style="font-size: larger;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div infiniteScroll [infiniteScrollDistance]="scrollDistance" [infiniteScrollUpDistance]="scrollUpDistance"
+        [infiniteScrollThrottle]="throttle" (scrolled)="onScrollDown()">
+        <!-- İçerik -->
+    </div>
+</div>
+
+

@@ -1,0 +1,17 @@
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\BasitOrnek1.exe
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\BasitOrnek1.deps.json
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\BasitOrnek1.runtimeconfig.json
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\BasitOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\BasitOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.AssemblyInfoInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.AssemblyInfo.cs
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.csproj.CoreCompileInputs.cache
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\refint\BasitOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.pdb
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.genruntimeconfig.cache
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\ref\BasitOrnek1.dll
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\bin\Debug\net7.0\FluentValidation.dll
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.csproj.AssemblyReference.cache
+C:\CareerHubt\AssemblyAndReflectionApp\BasitOrnek1\obj\Debug\net7.0\BasitOrnek1.csproj.CopyComplete
