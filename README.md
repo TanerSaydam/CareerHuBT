@@ -1,4 +1,12 @@
 # Career HuBT - WebApi Eğitimi
+## 20.Ders İşlenenler (02.12.2023)
+- Dependency Injection
+- Authentication ve Authorization
+- Attribute
+- Identity Kütüphanesini
+- Identity Kütüphanesi ile Register ve Login
+- DotNet Http Dosyasıyla API Request Atmayı İnceledik
+
 ## 19.Ders İşlenenler (24.11.2023)
 - Table Listemizi Çekecek metot Yazdık
 - Table Listesini Alırken DTO Nesnesini CQRS Mantığında Oluşturduk
@@ -30,6 +38,7 @@
 - Müşteri Temsilcilerin Odaya Sohbete Girebilmesini Kodladık
 
 ## 15.Ders İşlenenler (05.11.2023)
+-
 - LiveSupport Uygulamasına Devam Ediyoruz
 - ChatRoomDetail Entity Oluşturduk
 - Chat Odası Oluşturma Apisi Yazdık

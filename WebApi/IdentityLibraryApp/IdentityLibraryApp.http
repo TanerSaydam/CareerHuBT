@@ -1,0 +1,16 @@
+@IdentityLibraryApp_HostAddress = http://localhost:5123
+
+POST {{IdentityLibraryApp_HostAddress}}/api/Auth/Login
+Accept: application/json
+Content-Type: application/json
+{
+  "username": "tsaydam",
+  "password": "2"
+}
+
+###
+
+POST {{IdentityLibraryApp_HostAddress}}/api/Auth/Register
+Accept: application/json
+Content-Type: application/json
+{}
