@@ -1,4 +1,7 @@
 # Career HuBT - WebApi Eğitimi
+## 21.Ders İşlenenler (03.12.2023)
+- Mülakat Soruları ve Çözümleri
+
 ## 20.Ders İşlenenler (02.12.2023)
 - Dependency Injection
 - Authentication ve Authorization
