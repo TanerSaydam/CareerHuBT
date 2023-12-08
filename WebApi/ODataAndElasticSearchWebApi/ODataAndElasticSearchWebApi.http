@@ -1,0 +1,26 @@
+@ODataAndElasticSearchWebApi_HostAddress = http://localhost:5046
+
+GET {{ODataAndElasticSearchWebApi_HostAddress}}/api/Values/SeedData
+Accept: application/json
+
+###
+
+GET {{ODataAndElasticSearchWebApi_HostAddress}}/api/Values/GetAll
+Accept: application/json
+
+###
+
+GET {{ODataAndElasticSearchWebApi_HostAddress}}/api/Values/SyncToElasticSearch
+Accept: application/json
+
+###
+
+GET {{ODataAndElasticSearchWebApi_HostAddress}}/api/Values/GetAllWithEFCore/a
+Accept: application/json
+
+###
+
+GET {{ODataAndElasticSearchWebApi_HostAddress}}/api/Values/GetAllWithElasticSearch/a
+Accept: application/json
+
+###

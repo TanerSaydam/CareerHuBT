@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0wIiPFCc+lH/axn3nRv1TzNqGcTzjeiiaCfMscHdnHs=",
+  "Source": "ODataAndElasticSearchWebApi",
+  "BasePath": "_content/ODataAndElasticSearchWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

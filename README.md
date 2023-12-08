@@ -1,4 +1,10 @@
 # Career HuBT - WebApi Eğitimi
+## 22.Ders İşlenenler (08.12.2023)
+- OData .NET tarafında ile Data Sorgulama
+- Angular OData Table ile Çalışma
+- Elastic Search Kurulumu
+- Elastic Search Entegrasyonu ve Performans Karşılaştırması
+
 ## 21.Ders İşlenenler (03.12.2023)
 - Mülakat Soruları ve Çözümleri
 
