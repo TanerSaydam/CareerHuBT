@@ -1,0 +1,111 @@
+﻿@using MVCTodoApp.Controllers
+@model List<Todo>;
+@{
+    int i = 0;
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+   
+    <div>
+        @* <form action="/Home/Save" method="post" autocomplete="off"> *@
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-4">
+                    <input id="work" class="form-control" name="work"/>
+                    <button onclick="save()" class="btn btn-primary mt-2 w-100">Save</button>
+                </div>
+            </div>
+        @* </form> *@
+    </div>
+
+    <div class="mt-2">
+     <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Work</th>
+                <th>Is Completed</th>
+                <th>Created Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var todo in Model)
+            {
+                i++;
+                <tr id="@todo.Id">
+                    <td>@i</td>
+                    <td>@todo.Work</td>
+                    <td>@todo.IsCompleted</td>
+                    <td>@todo.CreatedDate</td>
+                    <td>
+                            <button onclick="remove('@todo.Id')" class="btn btn-sm btn-danger">Remove</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<script>
+
+    let index = @Model.Count();
+
+    function save() {
+        const workEl = document.getElementById("work");
+        fetch("/Home/Save?work=" + workEl.value).then(res=> res.json()).then(res=> {            
+            index++;
+            const text = `
+                <tr id="${res.id}">
+                        <td>${index}</td>
+                            <td>${res.work}</td>
+                            <td>${res.isCompleted}</td>
+                            <td>${res.createdDate}</td>
+                        <td>
+                                    <button onclick="remove('${res.id}')" class="btn btn-sm btn-danger">Remove</button>
+                        </td>
+                    </tr>
+            
+            `
+
+            const tbodyEl = document.querySelector("tbody");
+            tbodyEl.innerHTML += text;
+
+            workEl.value = "";
+            workEl.focus();
+        })
+    }
+
+    function remove(id) {
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: "btn btn-success",
+                cancelButton: "btn btn-danger"
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: "No, cancel!",
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch("/Home/Remove?id=" + id.toString())
+                    .then(() => {
+                        const el = document.getElementById(`${id}`);                       
+                        el.remove();
+                    })
+            }
+        });
+    }
+
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

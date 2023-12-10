@@ -1,0 +1,12 @@
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\bin\Debug\net8.0\xUnitTest.MathematicalOperations.deps.json
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\bin\Debug\net8.0\xUnitTest.MathematicalOperations.dll
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\bin\Debug\net8.0\xUnitTest.MathematicalOperations.pdb
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.AssemblyInfoInputs.cache
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.AssemblyInfo.cs
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.csproj.CoreCompileInputs.cache
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.sourcelink.json
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.dll
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\refint\xUnitTest.MathematicalOperations.dll
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\xUnitTest.MathematicalOperations.pdb
+C:\CareerHuBT\UnitTest\xUnitTest\xUnitTest.MathematicalOperations\obj\Debug\net8.0\ref\xUnitTest.MathematicalOperations.dll

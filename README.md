@@ -1,4 +1,10 @@
 # Career HuBT - WebApi Eğitimi
+## 23.Ders İşlenenler (10.12.2023)
+- Unit Test Nedir?
+- Unit Test'i Proje Üzerinde İnceleyerek Yazalım
+- MVC de Todo Projesi
+- Todo Projesinde Create ve Read'i JavaScript ile Yapma
+
 ## 22.Ders İşlenenler (08.12.2023)
 - OData .NET tarafında ile Data Sorgulama
 - Angular OData Table ile Çalışma

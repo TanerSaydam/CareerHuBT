@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "xUnitTest.MathematicalOperations/1.0.0": {
+        "runtime": {
+          "xUnitTest.MathematicalOperations.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "xUnitTest.MathematicalOperations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
