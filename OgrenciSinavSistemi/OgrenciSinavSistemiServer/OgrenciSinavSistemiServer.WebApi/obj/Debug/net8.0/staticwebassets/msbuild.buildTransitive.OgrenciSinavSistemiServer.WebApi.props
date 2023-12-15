@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OgrenciSinavSistemiServer.WebApi.props" />
+</Project>

@@ -1,0 +1,9 @@
+@OgrenciSinavSistemiServer.WebApi_HostAddress = http://localhost:5199
+
+POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Auth/Login
+Accept: application/json
+Content-Type: application/json
+{
+  "userName": "taner"
+}
+###

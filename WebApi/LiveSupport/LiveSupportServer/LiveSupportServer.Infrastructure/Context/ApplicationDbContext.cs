@@ -1,16 +1,16 @@
 ﻿using LiveSupportServer.Domain.Abstracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
 namespace LiveSupportServer.Infrastructure.Context;
 
-internal sealed class ApplicationDbContext : DbContext, IUnitOfWork
-{
+internal sealed class ApplicationDbContext(IConfiguration configuration) : DbContext, IUnitOfWork
+{    
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder
-        .UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=admin;Database=LiveSupportDb;")
-        .UseSnakeCaseNamingConvention();
+        .UseNpgsql(configuration.GetConnectionString("PostgreSQL"));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

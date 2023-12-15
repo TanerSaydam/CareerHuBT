@@ -23,11 +23,14 @@ internal sealed class CreateANewMessageCommandHandler : IRequestHandler<CreateAN
         ChatRoom chatRoom = await _chatRoomRepository.CreateANewMessageAsync(request.ChatRoomId, request.NameLastname, request.Message, cancellationToken);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-        await _signalRService
+        var lastDetail = chatRoom.ChatRoomDetails?.OrderBy(p => p.CreatedDate).LastOrDefault();
+
+        if(lastDetail is not null)
+        {
+            await _signalRService
                 .SendNewMessageToConnections(
                                         request.ChatRoomId,
-                                        chatRoom.ChatRoomDetails
-                                                    .OrderBy(p => p.CreatedDate)
-                                                    .LastOrDefault());
+                                        lastDetail);
+        }       
     }
 }

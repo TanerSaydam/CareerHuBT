@@ -1,52 +1,54 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj": {}
+    "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj": {
+    "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
+        "projectUniqueName": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
         "projectName": "LiveSupportServer.Application",
-        "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
+        "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
         "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
-        "outputPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\obj\\",
+        "outputPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
-                "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj"
+              "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
+                "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[12.2.0, )"
             }
           },
           "imports": [
@@ -65,45 +67,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
+    "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj",
+        "projectUniqueName": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj",
         "projectName": "LiveSupportServer.Domain",
-        "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj",
+        "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj",
         "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
-        "outputPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\obj\\",
+        "outputPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Ulid": {
               "target": "Package",
@@ -126,74 +130,68 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj": {
+    "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj",
+        "projectUniqueName": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj",
         "projectName": "LiveSupportServer.Infrastructure",
-        "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj",
+        "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\LiveSupportServer.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
-        "outputPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\obj\\",
+        "outputPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj": {
-                "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj"
+              "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj": {
+                "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj"
               },
-              "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
-                "projectPath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj"
+              "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj": {
+                "projectPath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Domain\\LiveSupportServer.Domain.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "EFCore.NamingConventions": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[8.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -212,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrenciSinavSistemiServer.WebApi", "OgrenciSinavSistemiServer.WebApi\OgrenciSinavSistemiServer.WebApi.csproj", "{974EF14E-8F37-4A83-8D96-025B879B200E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrenciSinavSistemiServer.WebApi.Tests.Unit", "OgrenciSinavSistemiServer.WebApi.Tests.Unit\OgrenciSinavSistemiServer.WebApi.Tests.Unit.csproj", "{60CDC0C7-BBF8-4FA6-82C9-98B2C0815444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974EF14E-8F37-4A83-8D96-025B879B200E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974EF14E-8F37-4A83-8D96-025B879B200E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974EF14E-8F37-4A83-8D96-025B879B200E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974EF14E-8F37-4A83-8D96-025B879B200E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CDC0C7-BBF8-4FA6-82C9-98B2C0815444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CDC0C7-BBF8-4FA6-82C9-98B2C0815444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CDC0C7-BBF8-4FA6-82C9-98B2C0815444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CDC0C7-BBF8-4FA6-82C9-98B2C0815444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3072AC12-5020-4EBD-AE7C-A63BC4F1A0B8}
+	EndGlobalSection
+EndGlobal

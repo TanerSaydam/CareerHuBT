@@ -7,7 +7,7 @@ public sealed record UserName //Value Object - strong type
     {
         if (value.Length < 3)
         {
-            throw new Exception("Kullanıcı adı 3 karakterden küçük olamaz!");
+            throw new ArgumentException("Kullanıcı adı 3 karakterden küçük olamaz!");
         }
 
         Value = value;

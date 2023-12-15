@@ -2,4 +2,5 @@
 using MediatR;
 
 namespace LiveSupportServer.Application.Features.Admin.GetAllChatRoom;
-public sealed record GetAllChatRoomQuery():IRequest<List<ChatRoom>>;
+public sealed record GetAllChatRoomQuery(
+    string Empty = ""):IRequest<List<ChatRoom>>;

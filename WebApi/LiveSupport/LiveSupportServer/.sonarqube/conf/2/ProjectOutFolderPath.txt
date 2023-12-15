@@ -1,0 +1,1 @@
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\.sonarqube\out\2

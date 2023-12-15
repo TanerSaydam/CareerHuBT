@@ -23,10 +23,10 @@ public sealed class User : Entity //Rich Domain Model
     {
     }
 
-    public Name Name { get; private set; }
-    public UserName UserName { get; private set; }
-    public byte[] PasswordSalt { get; private set; }
-    public byte[] PasswordHash { get; private set; }
+    public Name Name { get; private set; } = new(string.Empty);
+    public UserName UserName { get; private set; } = new(string.Empty);
+    public byte[] PasswordSalt { get; private set; } = new byte[128];
+    public byte[] PasswordHash { get; private set; } = new byte[64];
 
     public static User Create(string name, string userName, string password) //factory
     {

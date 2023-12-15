@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi.Tests.Unit\\OgrenciSinavSistemiServer.WebApi.Tests.Unit.csproj": {}
+  },
+  "projects": {
+    "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi.Tests.Unit\\OgrenciSinavSistemiServer.WebApi.Tests.Unit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi.Tests.Unit\\OgrenciSinavSistemiServer.WebApi.Tests.Unit.csproj",
+        "projectName": "OgrenciSinavSistemiServer.WebApi.Tests.Unit",
+        "projectPath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi.Tests.Unit\\OgrenciSinavSistemiServer.WebApi.Tests.Unit.csproj",
+        "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
+        "outputPath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi.Tests.Unit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj": {
+                "projectPath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj",
+        "projectName": "OgrenciSinavSistemiServer.WebApi",
+        "projectPath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj",
+        "packagesPath": "C:\\Users\\taner\\.nuget\\packages\\",
+        "outputPath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\taner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DefaultCorsPolicy": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

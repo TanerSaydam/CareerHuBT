@@ -20,7 +20,7 @@ internal sealed class ChatRoomRepository : IChatRoomRepository
 
     public async Task<ChatRoom> CreateANewMessageAsync(string chatRoomId, string nameLastname, string message, CancellationToken cancellationToken)
     {
-        ChatRoom chatRoom =
+        ChatRoom? chatRoom =
             await _context
             .Set<ChatRoom>()
             .Where(p => p.Id == chatRoomId)
@@ -29,7 +29,7 @@ internal sealed class ChatRoomRepository : IChatRoomRepository
 
         if (chatRoom is null)
         {
-            throw new Exception("Sohbet odası bulunamadı!");
+            throw new ArgumentException("Sohbet odası bulunamadı!");
         }
 
         chatRoom.CreateANewAnswer(nameLastname, message);
@@ -45,14 +45,14 @@ internal sealed class ChatRoomRepository : IChatRoomRepository
         chatRoom.CreateChatRoomDetail("AI Support", "Mesajınız sisteme işlendi. Birazdan müşteri temsilcimiz ile görüşeceksiniz. Lütfen bu ekranı kapatmayın.", DateTime.UtcNow.AddSeconds(1));
         await _context.Set<ChatRoom>().AddAsync(chatRoom, cancellationToken);
 
-        await _hubContext.Clients.All.SendAsync("CreateRoom", chatRoom);
+        await _hubContext.Clients.All.SendAsync("CreateRoom", chatRoom, cancellationToken);
 
         return id;
     }
 
     public async Task<int> CreateChatRoomNumberAsync(CancellationToken cancellationToken = default)
     {
-        ChatRoom chatRoom =
+        ChatRoom? chatRoom =
             await _context
                 .Set<ChatRoom>()
                 .OrderBy(p => p.CreatedDate)
@@ -75,14 +75,14 @@ internal sealed class ChatRoomRepository : IChatRoomRepository
     {
         return 
             await _context.Set<ChatRoom>()
-                    .Where(p => p.IsClosed == false)
+                    .Where(p => !p.IsClosed)
                     .Include(p=> p.User)
                     .AsNoTracking()
                     .OrderByDescending(p => p.LastAnswerDate)
                     .ToListAsync(cancellationToken);
     }
 
-    public async Task<ChatRoom> GetChatRoomWithDetailByChatRoomIdAsync(string chatRoomId, CancellationToken cancellationToken)
+    public async Task<ChatRoom?> GetChatRoomWithDetailByChatRoomIdAsync(string chatRoomId, CancellationToken cancellationToken = default)
     {
         var chat = await _context
             .Set<ChatRoom>()

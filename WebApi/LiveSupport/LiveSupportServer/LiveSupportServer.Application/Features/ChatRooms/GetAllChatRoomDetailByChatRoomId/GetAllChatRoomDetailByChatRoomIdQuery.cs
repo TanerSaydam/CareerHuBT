@@ -4,4 +4,4 @@ using MediatR;
 
 namespace LiveSupportServer.Application.Features.ChatRooms.GetAllChatRoomDetailByChatRoomId;
 public sealed record GetAllChatRoomDetailByChatRoomIdQuery(
-    string ChatRoomId) : IRequest<ChatRoom>;
+    string ChatRoomId) : IRequest<ChatRoom?>;

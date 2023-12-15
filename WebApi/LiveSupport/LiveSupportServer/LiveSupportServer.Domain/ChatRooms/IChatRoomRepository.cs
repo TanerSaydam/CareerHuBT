@@ -8,7 +8,7 @@ public interface IChatRoomRepository
 
     Task<int> CreateChatRoomNumberAsync(CancellationToken cancellationToken = default);
 
-    Task<ChatRoom> GetChatRoomWithDetailByChatRoomIdAsync(string chatRoomId, CancellationToken cancellationToken = default);
+    Task<ChatRoom?> GetChatRoomWithDetailByChatRoomIdAsync(string chatRoomId, CancellationToken cancellationToken = default);
 
     Task<List<ChatRoom>> GetChatRoomsAsync(CancellationToken cancellationToken = default);
 

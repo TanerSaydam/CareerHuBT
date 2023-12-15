@@ -1,0 +1,7 @@
+﻿C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\UserServiceTests.cs
+C:\Users\taner\.nuget\packages\microsoft.net.test.sdk\17.6.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\taner\.nuget\packages\microsoft.testplatform.testhost\17.6.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\taner\.nuget\packages\microsoft.testplatform.testhost\17.6.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\taner\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\taner\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\taner\.nuget\packages\xunit.runner.visualstudio\2.4.5\build\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll

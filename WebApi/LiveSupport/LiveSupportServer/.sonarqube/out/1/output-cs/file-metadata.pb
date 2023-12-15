@@ -1,0 +1,15 @@
+h
+_C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Abstracts\Entity.csutf-8m
+dC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Abstracts\IUnitOfWork.csutf-8v
+mC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRoomDetails\ChatRoomDetail.csutf-8j
+aC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\ChatRoom.csutf-8u
+lC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\IChatRoomRepository.csutf-8i
+`C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\Subject.csutf-8p
+gC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Shared\ValueObjects\Name.csutf-8m
+dC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\IUserRepository.csutf-8m
+dC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\PasswordService.csutf-8b
+YC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\User.csutf-8f
+]C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\UserName.csutf-8“
+‡C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Debug\net8.0\LiveSupportServer.Domain.GlobalUsings.g.csutf-8—
+‹C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8‘
+…C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\obj\Debug\net8.0\LiveSupportServer.Domain.AssemblyInfo.csutf-8

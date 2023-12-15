@@ -1,0 +1,17 @@
+﻿C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Abstractions\IJwtProvider.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Abstractions\ISignalRService.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\DependencyInjection.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Admin\ConnectChatRoom\ConnectChatRoomCommand.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Admin\ConnectChatRoom\ConnectChatRoomCommandHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Admin\GetAllChatRoom\GetAllChatRoomQuery.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Admin\GetAllChatRoom\GetAllChatRoomQueryHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Auths\Login\LoginCommand.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Auths\Login\LoginCommandHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Auths\Register\RegisterCommand.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\Auths\Register\RegisterCommandHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\CreateANewMessage\CreateANewMessageCommand.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\CreateANewMessage\CreateANewMessageCommandHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\CreateChatRoom\CreateChatRoomCommand.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\CreateChatRoom\CreateChatRoomCommandHandler.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\GetAllChatRoomDetailByChatRoomId\GetAllChatRoomDetailByChatRoomIdQuery.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\Features\ChatRooms\GetAllChatRoomDetailByChatRoomId\GetAllChatRoomDetailByChatRoomIdQueryHandler.cs

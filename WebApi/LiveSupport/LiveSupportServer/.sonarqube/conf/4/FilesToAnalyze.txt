@@ -1,0 +1,13 @@
+﻿C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Abstractions\ApiController.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\AdminController.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\AuthController.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\ChatRoomsController.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Program.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.GlobalUsings.g.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.AssemblyInfo.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\appsettings.Development.json
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\appsettings.json
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Properties\launchSettings.json
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Properties\PublishProfiles\FolderProfile.pubxml

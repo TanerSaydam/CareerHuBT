@@ -2,7 +2,7 @@
 
 namespace LiveSupportServer.ExampleConsoleApp;
 
-internal class Program
+internal static class Program
 {
     private static void Main(string[] args)
     {
@@ -28,7 +28,7 @@ internal class Program
     public static void UpdateProduct(int id, string name, int stock)
     {
         ApplicationDbContext context = new();
-        Product product = context.Products.Find(id);
+        Product? product = context.Products.Find(id);
         if (product is null) throw new ArgumentException("Ürün bulunamadı!");
 
         product.Update(name, stock);

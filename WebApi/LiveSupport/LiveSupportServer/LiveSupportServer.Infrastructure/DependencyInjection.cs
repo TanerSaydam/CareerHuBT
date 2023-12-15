@@ -32,6 +32,8 @@ public static class DependencyInjection
 
         services.AddScoped<IJwtProvider, JwtProvider>();
         services.Configure<Jwt>(configuration.GetSection("Jwt"));
+
+        var secretKey = configuration.GetSection("Jwt:SecretKey").Value;
         services.AddAuthentication().AddJwtBearer(opt =>
         {
             opt.TokenValidationParameters = new()
@@ -42,7 +44,7 @@ public static class DependencyInjection
                 ValidateIssuerSigningKey = true,
                 ValidIssuer = configuration.GetSection("Jwt:Issuer").Value,
                 ValidAudience = configuration.GetSection("Jwt:Audience").Value,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("Jwt:SecretKey").Value))
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey ?? ""))
             };
         });
         return services;

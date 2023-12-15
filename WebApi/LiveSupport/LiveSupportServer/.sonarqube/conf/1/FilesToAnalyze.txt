@@ -1,0 +1,11 @@
+﻿C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Abstracts\Entity.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Abstracts\IUnitOfWork.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRoomDetails\ChatRoomDetail.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\ChatRoom.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\IChatRoomRepository.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\ChatRooms\Subject.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Shared\ValueObjects\Name.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\IUserRepository.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\PasswordService.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\User.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\Users\UserName.cs

@@ -15,9 +15,10 @@ internal sealed class UserRepository : IUserRepository
         _jwtProvider = jwtProvider;
     }
 
-    public async Task<User> GetByIdAsync(string id, CancellationToken cancellationToken = default)
+    public async Task<User?> GetByIdAsync(string id, CancellationToken cancellationToken = default)
     {
-        return await _context.Set<User>().FindAsync(id, cancellationToken);
+        var user = await _context.Set<User>().FindAsync(new object[] { id }, cancellationToken);
+        return user;
     }
 
     public async Task<string> LoginAsync(string userName, string password, CancellationToken cancellationToken = default)
@@ -49,6 +50,6 @@ internal sealed class UserRepository : IUserRepository
 
         User user = User.Create(name, userName, password);
         await _context.AddAsync(user, cancellationToken);
-        await _context.SaveChangesAsync();
+        await _context.SaveChangesAsync(cancellationToken);
     }
 }

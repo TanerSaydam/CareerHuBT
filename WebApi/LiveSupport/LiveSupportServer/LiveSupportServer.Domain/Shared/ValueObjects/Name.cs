@@ -7,7 +7,7 @@ public sealed record Name
     {
         if (value.Length < 5)
         {
-            throw new Exception("Ad soyad en az 5 karakter olmalıdır!");
+            throw new ArgumentException("Ad soyad en az 5 karakter olmalıdır!");
         }
 
         Value = value;

@@ -1,4 +1,9 @@
 # Career HuBT - WebApi Eğitimi
+## 24.Ders İşlenenler (15.12.2023)
+- SonarQube ile Proje Analizi
+- JMeter ile Api Yük Testi
+- Öğrenci Sınav Sistemine Başladık
+
 ## 23.Ders İşlenenler (10.12.2023)
 - Unit Test Nedir?
 - Unit Test'i Proje Üzerinde İnceleyerek Yazalım

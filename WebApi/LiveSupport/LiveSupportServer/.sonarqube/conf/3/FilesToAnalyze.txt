@@ -1,0 +1,11 @@
+﻿C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Authentication\JwtProvider.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Configuration\ChatRoomConfiguration.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Configuration\ChatRoomDetailConfiguration.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Configuration\UserConfiguration.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Context\ApplicationDbContext.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\DependencyInjection.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Hubs\CreateRoomHub.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Options\Jwt.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Repositories\ChatRoomRepository.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Repositories\UserRepository.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\Services\SignalRService.cs

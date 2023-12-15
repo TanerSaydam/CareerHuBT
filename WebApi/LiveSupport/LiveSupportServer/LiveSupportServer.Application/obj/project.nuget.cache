@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cN8mb3zO1DoKj2QB6LX9yKH5i0WPYKdnO3kDBbZ5+6OiunB/+HyD0qR9luFpwsZCeMAFVQ9sJUXl6k3wLsnHqA==",
+  "dgSpecHash": "kTmNYMk8wcRkaRWxrTReafYF++JQcpIPhdjVxOG3WcJWres+vXkDd5bpZj0cMDePR1XpmrgbK7Rebj8t3RgKiQ==",
   "success": true,
-  "projectFilePath": "C:\\CareerHubt\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
+  "projectFilePath": "C:\\CareerHuBT\\WebApi\\LiveSupport\\LiveSupportServer\\LiveSupportServer.Application\\LiveSupportServer.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\taner\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\taner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\ulid\\1.3.3\\ulid.1.3.3.nupkg.sha512"
   ],
   "logs": []

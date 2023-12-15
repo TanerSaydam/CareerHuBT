@@ -1,0 +1,16 @@
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Debug\net8.0\LiveSupportServer.Application.deps.json
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Debug\net8.0\LiveSupportServer.Application.dll
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Debug\net8.0\LiveSupportServer.Application.pdb
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Debug\net8.0\LiveSupportServer.Domain.dll
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\bin\Debug\net8.0\LiveSupportServer.Domain.pdb
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.csproj.AssemblyReference.cache
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.AssemblyInfoInputs.cache
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.AssemblyInfo.cs
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.csproj.CoreCompileInputs.cache
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.sourcelink.json
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.csproj.CopyComplete
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.dll
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\refint\LiveSupportServer.Application.dll
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\LiveSupportServer.Application.pdb
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\obj\Debug\net8.0\ref\LiveSupportServer.Application.dll

@@ -23,7 +23,7 @@ internal sealed class ChatRoomConfiguration : IEntityTypeConfiguration<ChatRoom>
 
         builder
             .Property(p => p.WhoIsTheLastAnswer)
-            .HasConversion(who => who.Value, value => new(value));
+            .HasConversion(who => who!.Value, value => new(value));
 
         builder
             .HasMany(p => p.ChatRoomDetails)

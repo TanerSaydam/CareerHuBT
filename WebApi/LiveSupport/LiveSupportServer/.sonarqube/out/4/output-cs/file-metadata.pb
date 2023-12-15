@@ -1,0 +1,10 @@
+r
+iC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Abstractions\ApiController.csutf-8s
+jC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\AdminController.csutf-8r
+iC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\AuthController.csutf-8w
+nC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Controllers\ChatRoomsController.csutf-8_
+VC:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\Program.csutf-8“
+‡C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.GlobalUsings.g.csutf-8—
+‹C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8‘
+…C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.AssemblyInfo.csutf-8¤
+˜C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\obj\Debug\net8.0\LiveSupportServer.WebApi.MvcApplicationPartsAssemblyInfo.csutf-8

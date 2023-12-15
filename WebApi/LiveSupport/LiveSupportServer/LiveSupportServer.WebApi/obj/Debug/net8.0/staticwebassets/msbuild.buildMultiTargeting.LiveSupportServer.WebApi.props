@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LiveSupportServer.WebApi.props" />
+</Project>

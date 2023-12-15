@@ -7,16 +7,16 @@ namespace LiveSupportServer.Domain.ChatRooms;
 
 public sealed class ChatRoom : Entity
 {
-    public int Number { get; private set; }
-    public Name ClientNameLastname { get; private set; }
-    public Subject Subject { get; private set; }
-    public DateTime CreatedDate { get; private set; }
-    public bool IsClosed { get; private set; }
-    public Name WhoIsTheLastAnswer { get; private set; }
-    public DateTime LastAnswerDate { get; private set; }
-    public string UserId { get; private set; }
-    public User User { get; private set; }
-    public List<ChatRoomDetail> ChatRoomDetails { get; private set; }
+    public int Number { get; private set; } = 0;
+    public Name ClientNameLastname { get; private set; } = new(string.Empty);
+    public Subject Subject { get; private set; } = new(string.Empty);
+    public DateTime CreatedDate { get; private set; } = DateTime.UtcNow;
+    public bool IsClosed { get; private set; } = false;
+    public Name? WhoIsTheLastAnswer { get; private set; }
+    public DateTime? LastAnswerDate { get; private set; }
+    public string? UserId { get; private set; }
+    public User? User { get; private set; }
+    public List<ChatRoomDetail>? ChatRoomDetails { get; private set; }
 
     private ChatRoom() : base(Guid.NewGuid().ToString())
     {
@@ -66,7 +66,10 @@ public sealed class ChatRoom : Entity
             message: message,
             createdDate: createdDate);
 
-        ChatRoomDetails.Add(chatRoomDetail);
+        if(ChatRoomDetails is not null)
+        {
+            ChatRoomDetails.Add(chatRoomDetail);
+        }        
     }
 
     private void ChangeLastAnswer(string whoisTheLastAnswer)
@@ -82,6 +85,6 @@ public sealed class ChatRoom : Entity
 
     public void OrderChatRoomDetails()
     {
-        ChatRoomDetails = ChatRoomDetails.OrderBy(p => p.CreatedDate).ToList();
+        ChatRoomDetails = ChatRoomDetails!.OrderBy(p => p.CreatedDate).ToList();
     }
 }

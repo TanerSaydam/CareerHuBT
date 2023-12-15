@@ -1,7 +1,7 @@
 ﻿namespace LiveSupportServer.Domain.Abstracts;
 public abstract class Entity //DDD Entity 
 {
-    public Entity(string id)
+    protected Entity(string id)
     {
         Id = id;
     }
@@ -9,12 +9,12 @@ public abstract class Entity //DDD Entity
 
     public override bool Equals(object? obj)
     {
-        if(obj is null || obj is not Entity entity)
+        if(obj is not Entity entity)
         {
             return false;
         }
 
-        return ((Entity)obj).Id == Id;   
+        return entity.Id == Id;   
     }
 
     public override int GetHashCode()

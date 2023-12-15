@@ -1,0 +1,28 @@
+Product projects
+---------------------------------------
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.ExampleConsoleApp\LiveSupportServer.ExampleConsoleApp.csproj
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Domain\LiveSupportServer.Domain.csproj
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Application\LiveSupportServer.Application.csproj
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.Infrastructure\LiveSupportServer.Infrastructure.csproj
+C:\CareerHuBT\WebApi\LiveSupport\LiveSupportServer\LiveSupportServer.WebApi\LiveSupportServer.WebApi.csproj
+
+
+Test projects
+---------------------------------------
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

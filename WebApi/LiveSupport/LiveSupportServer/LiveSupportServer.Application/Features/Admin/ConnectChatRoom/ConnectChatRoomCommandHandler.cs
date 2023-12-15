@@ -22,7 +22,7 @@ internal sealed class ConnectChatRoomCommandHandler : IRequestHandler<ConnectCha
 
     public async Task Handle(ConnectChatRoomCommand request, CancellationToken cancellationToken)
     {
-        ChatRoom chatRoom = await _chatRoomRepository.GetChatRoomByIdAsync(request.ChatRoomId, cancellationToken);
+        ChatRoom? chatRoom = await _chatRoomRepository.GetChatRoomByIdAsync(request.ChatRoomId, cancellationToken);
         if(chatRoom is null)
         {
             throw new ArgumentException("Sohbet odası bulunamadı!");
@@ -40,19 +40,22 @@ internal sealed class ConnectChatRoomCommandHandler : IRequestHandler<ConnectCha
 
         if(chatRoom.UserId != request.UserId)
         {
-            User user = await _userRepository.GetByIdAsync(request.UserId, cancellationToken);
+            User? user = await _userRepository.GetByIdAsync(request.UserId, cancellationToken);
 
             chatRoom.ConnectChatRoom(request.UserId);
 
-            chatRoom.CreateANewAnswer(user.Name.Value, $"Merhaba ben {user.Name.Value}. Size nasıl yardımcı olabilirim?");
+            chatRoom.CreateANewAnswer(user!.Name.Value, $"Merhaba ben {user.Name.Value}. Size nasıl yardımcı olabilirim?");
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-            await _signalRService
-                .SendNewMessageToConnections(
-                                        chatRoom.Id,
-                                        chatRoom.ChatRoomDetails
-                                                    .OrderBy(p => p.CreatedDate)
-                                                    .LastOrDefault());
+            var lastDetail = chatRoom.ChatRoomDetails?.OrderBy(p => p.CreatedDate).LastOrDefault();
+
+            if (lastDetail != null)
+            {
+                await _signalRService
+                   .SendNewMessageToConnections(
+                                           chatRoom.Id,
+                                           lastDetail);
+            }
         }       
     }
 }
