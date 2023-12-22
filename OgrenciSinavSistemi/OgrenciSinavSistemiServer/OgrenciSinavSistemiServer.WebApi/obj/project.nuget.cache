@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WltILGiu3LNcIiQuGcLtfit5+d/hLOWYnL2AxT2LpMlruFgOc0dKluRltUu/4URJawR6Yb+SeDa8wN89yVUXOg==",
+  "dgSpecHash": "OcF7w4+zWwUYvQPow2XVuPMz40dbPAeCLJfs5RjVh1UVVbv8Koeh0OuAWXCfI6QpsDRaShWNxPAZzWuoA11Ryw==",
   "success": true,
   "projectFilePath": "C:\\CareerHuBT\\OgrenciSinavSistemi\\OgrenciSinavSistemiServer\\OgrenciSinavSistemiServer.WebApi\\OgrenciSinavSistemiServer.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taner\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\defaultcorspolicy\\8.0.0\\defaultcorspolicy.8.0.0.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\erroror\\1.3.0\\erroror.1.3.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
@@ -53,6 +54,7 @@
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\taner\\.nuget\\packages\\scrutor\\4.2.2\\scrutor.4.2.2.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\taner\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -1,9 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OgrenciSinavSistemiServer.WebApi.Models;
+using OgrenciSinavSistemiServer.WebApi.Abstractions;
+using OgrenciSinavSistemiServer.WebApi.Models.Exams;
+using OgrenciSinavSistemiServer.WebApi.Models.UserExams;
+using OgrenciSinavSistemiServer.WebApi.Models.Users;
 
 namespace OgrenciSinavSistemiServer.WebApi.Context;
 
-public sealed class ApplicationDbContext : DbContext
+public sealed class ApplicationDbContext : DbContext, IUnitOfWork
 {
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {

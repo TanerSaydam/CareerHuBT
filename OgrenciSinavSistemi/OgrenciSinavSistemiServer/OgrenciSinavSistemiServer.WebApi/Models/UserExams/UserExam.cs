@@ -1,4 +1,4 @@
-﻿namespace OgrenciSinavSistemiServer.WebApi.Models;
+﻿namespace OgrenciSinavSistemiServer.WebApi.Models.UserExams;
 
 public sealed class UserExam
 {

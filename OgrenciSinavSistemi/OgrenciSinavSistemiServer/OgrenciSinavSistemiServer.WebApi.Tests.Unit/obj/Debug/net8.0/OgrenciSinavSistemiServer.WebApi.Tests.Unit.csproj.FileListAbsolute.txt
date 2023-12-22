@@ -153,3 +153,6 @@ C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiS
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\obj\Debug\net8.0\OgrenciSinavSistemiServer.WebApi.Tests.Unit.pdb
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\obj\Debug\net8.0\OgrenciSinavSistemiServer.WebApi.Tests.Unit.genruntimeconfig.cache
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\obj\Debug\net8.0\ref\OgrenciSinavSistemiServer.WebApi.Tests.Unit.dll
+C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\bin\Debug\net8.0\ErrorOr.dll
+C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi.Tests.Unit\bin\Debug\net8.0\Scrutor.dll

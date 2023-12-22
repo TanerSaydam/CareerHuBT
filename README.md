@@ -1,4 +1,7 @@
 # Career HuBT - WebApi Eğitimi
+## 25.Ders İşlenenler (22.12.2023)
+- Öğrenci Sınav Sistemini Kodlamaya Devam Ettik
+
 ## 24.Ders İşlenenler (15.12.2023)
 - SonarQube ile Proje Analizi
 - JMeter ile Api Yük Testi

@@ -137,3 +137,5 @@ C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiS
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi\obj\Debug\net8.0\OgrenciSinavSistemiServer.WebApi.pdb
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi\obj\Debug\net8.0\OgrenciSinavSistemiServer.WebApi.genruntimeconfig.cache
 C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi\obj\Debug\net8.0\ref\OgrenciSinavSistemiServer.WebApi.dll
+C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi\bin\Debug\net8.0\ErrorOr.dll
+C:\CareerHuBT\OgrenciSinavSistemi\OgrenciSinavSistemiServer\OgrenciSinavSistemiServer.WebApi\bin\Debug\net8.0\Scrutor.dll

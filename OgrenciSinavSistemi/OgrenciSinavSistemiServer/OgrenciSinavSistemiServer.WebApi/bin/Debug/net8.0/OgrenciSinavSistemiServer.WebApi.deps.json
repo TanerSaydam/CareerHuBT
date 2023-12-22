@@ -9,9 +9,11 @@
       "OgrenciSinavSistemiServer.WebApi/1.0.0": {
         "dependencies": {
           "DefaultCorsPolicy": "8.0.0",
+          "ErrorOr": "1.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
+          "Scrutor": "4.2.2",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -61,6 +63,14 @@
           "lib/net8.0/DefaultCorsPolicyNugetPackage.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "ErrorOr/1.3.0": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
           }
         }
       },
@@ -667,6 +677,18 @@
           }
         }
       },
+      "Scrutor/4.2.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Scrutor.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -969,6 +991,13 @@
       "sha512": "sha512-walN0TmGCjfbh7InBmKXtReYEc/NC3MuPxIdsmeQlMefDaa/WoPOGupk/lfrGNPlVXI/w0hK2hxoLzQ82J+k7w==",
       "path": "defaultcorspolicy/8.0.0",
       "hashPath": "defaultcorspolicy.8.0.0.nupkg.sha512"
+    },
+    "ErrorOr/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pr7fPsggiTauAXbxp8D2z/5wZvhgB1zgQ5ScsUeHrRCMT5Rzw3W6k6l1KzJPf8c0ExSSMJBLaaYiCF0hDs3EIw==",
+      "path": "erroror/1.3.0",
+      "hashPath": "erroror.1.3.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1291,6 +1320,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Scrutor/4.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t5VIYA7WJXoJJo7s4DoHakMGwTu+MeEnZumMOhTCH7kz9xWha24G7dJNxWrHPlu0ZdZAS4jDZCxxAnyaBh7uYw==",
+      "path": "scrutor/4.2.2",
+      "hashPath": "scrutor.4.2.2.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

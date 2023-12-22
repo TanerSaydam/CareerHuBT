@@ -1,4 +1,4 @@
-﻿namespace OgrenciSinavSistemiServer.WebApi.Models;
+﻿namespace OgrenciSinavSistemiServer.WebApi.Models.Users;
 
 public sealed class User
 {

@@ -3,7 +3,56 @@
 POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Auth/Login
 Accept: application/json
 Content-Type: application/json
+
 {
   "userName": "taner"
 }
 ###
+
+POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Exams/Create
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Matematik 101 Final",
+  "examQuestions": [
+    {
+      "question": "2+2'nin sonucu nedir?",
+      "answerA": "3",
+      "answerB": "4",
+      "answerC": "5",
+      "answerD": "6",
+      "correctAnswer": "B"
+    },
+    {
+      "question": "5x3'ün sonucu nedir?",
+      "answerA": "12",
+      "answerB": "15",
+      "answerC": "18",
+      "answerD": "21",
+      "correctAnswer": "B"
+    }
+  ]
+}
+###
+
+GET {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Students/GetAllStudent
+Accept: application/json
+
+###
+
+GET {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Exams/GetAll
+Accept: application/json
+Content-Type: application/json
+
+###
+
+      
+POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/UserExams/AddRange
+Accept: application/json
+Content-Type: application/json
+
+{
+  "examId": "",
+  "studentIds": [""]
+}

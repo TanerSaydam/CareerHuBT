@@ -1,4 +1,4 @@
-﻿namespace OgrenciSinavSistemiServer.WebApi.Models;
+﻿namespace OgrenciSinavSistemiServer.WebApi.Models.Exams;
 
 public sealed class Exam
 {
@@ -8,4 +8,5 @@ public sealed class Exam
     }
     public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
+    public List<ExamQuestion>? ExamQuestions { get; set; }
 }
