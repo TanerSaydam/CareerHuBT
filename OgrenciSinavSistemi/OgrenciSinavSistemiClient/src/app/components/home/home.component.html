@@ -1,0 +1,29 @@
+<div class="mb-2">
+    <h1>Hoşgeldiniz {{auth.user.UserName}}</h1>
+</div>
+<div class="mt-2">
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Sınav Adı</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(exam of exams; track exam){
+                <tr>
+                    <td>{{$index + 1}}</td>
+                    <td>{{exam?.title}}</td>
+                    <td>
+                        @if(!exam?.isExamFinish){
+                            <button class="btn btn-outline-success" (click)="startExam(exam.id)">Sınava Başla</button>
+                        }@else {
+                            <span class="text-danger">Sınav Tamamlanmış!</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

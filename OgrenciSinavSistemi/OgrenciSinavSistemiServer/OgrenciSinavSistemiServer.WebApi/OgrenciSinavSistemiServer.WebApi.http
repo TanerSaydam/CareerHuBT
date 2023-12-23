@@ -1,14 +1,16 @@
 @OgrenciSinavSistemiServer.WebApi_HostAddress = http://localhost:5199
 
+//Login EndPoint
 POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Auth/Login
 Accept: application/json
 Content-Type: application/json
 
 {
-  "userName": "taner"
+  "userName": "toprak"
 }
 ###
 
+//Exam Create EndPoint
 POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Exams/Create
 Accept: application/json
 Content-Type: application/json
@@ -36,23 +38,45 @@ Content-Type: application/json
 }
 ###
 
+//Student Create EndPoint
+POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Students/Create
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name":"Toprak Saydam",
+  "userName":"toprak"
+}
+###
+
+//Get Student List EndPoint
 GET {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Students/GetAllStudent
 Accept: application/json
 
 ###
 
+//Get Exam List EndPoint
 GET {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/Exams/GetAll
 Accept: application/json
-Content-Type: application/json
 
 ###
 
-      
+
+//Set Exam To Student EndPoint
 POST {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/UserExams/AddRange
 Accept: application/json
 Content-Type: application/json
 
 {
-  "examId": "",
-  "studentIds": [""]
+  "examId": "c9e969f8-cc8e-4c8e-bf9a-a54f4addeb31",
+  "studentIds": ["bbff85d5-6dcf-4237-b2fc-d42aa5d17014","7fb67a08-fc80-4226-8f9f-9684c4a618bb"]
 }
+
+###
+
+//Get Student Exam List
+GET {{OgrenciSinavSistemiServer.WebApi_HostAddress}}/api/StudentExamQuestions/GetExamsByStudentId
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiI4MTVmNWQyYy0zMDJiLTQxZmYtYWFmNy0xMGVhN2VhYjcwZWYiLCJuYmYiOjE3MDMzNTIxNTMsImV4cCI6MTcwMzQzODU1MywiaXNzIjoiVGFuZXIgU2F5ZGFtIiwiYXVkIjoiRXZlcnlvbmUifQ.p66xKxPzuAixmwq5K_gflSk3vnkTkOA4c4qITHc_zjsGzkC8JVtlk5J-5UEv2v821zuDDMwgnMjXVkVbcYqSUQ
+
+//20:40 görüþelim

@@ -22,7 +22,7 @@ namespace OgrenciSinavSistemiServer.WebApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Exam", b =>
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Exams.Exam", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,7 +37,7 @@ namespace OgrenciSinavSistemiServer.WebApi.Migrations
                     b.ToTable("Exams");
                 });
 
-            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.ExamQuestion", b =>
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Exams.ExamQuestion", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,10 +74,51 @@ namespace OgrenciSinavSistemiServer.WebApi.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ExamId");
+
                     b.ToTable("ExamQuestions");
                 });
 
-            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.User", b =>
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.StudentExamQuestions.StudentExamQuestion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Answer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<int>("ExamQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("StudentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentExamQuestions");
+                });
+
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.UserExams.StudentExam", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ExamId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsExamFinish")
+                        .HasColumnType("bit");
+
+                    b.HasKey("UserId", "ExamId");
+
+                    b.HasIndex("ExamId");
+
+                    b.ToTable("StudentExams");
+                });
+
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Users.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,17 +140,29 @@ namespace OgrenciSinavSistemiServer.WebApi.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.UserExam", b =>
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Exams.ExamQuestion", b =>
                 {
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.HasOne("OgrenciSinavSistemiServer.WebApi.Models.Exams.Exam", null)
+                        .WithMany("ExamQuestions")
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
 
-                    b.Property<Guid>("ExamId")
-                        .HasColumnType("uniqueidentifier");
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.UserExams.StudentExam", b =>
+                {
+                    b.HasOne("OgrenciSinavSistemiServer.WebApi.Models.Exams.Exam", "Exam")
+                        .WithMany()
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasKey("UserId", "ExamId");
+                    b.Navigation("Exam");
+                });
 
-                    b.ToTable("UserExams");
+            modelBuilder.Entity("OgrenciSinavSistemiServer.WebApi.Models.Exams.Exam", b =>
+                {
+                    b.Navigation("ExamQuestions");
                 });
 #pragma warning restore 612, 618
         }

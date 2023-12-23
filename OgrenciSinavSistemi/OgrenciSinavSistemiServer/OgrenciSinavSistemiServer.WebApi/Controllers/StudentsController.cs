@@ -2,22 +2,25 @@
 using Microsoft.AspNetCore.Mvc;
 using OgrenciSinavSistemiServer.WebApi.DTOs;
 using OgrenciSinavSistemiServer.WebApi.Models.Users;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OgrenciSinavSistemiServer.WebApi.Controllers;
 [Route("api/[controller]/[action]")]
 [ApiController]
 public class StudentsController
-    (IStudenService studentService): ControllerBase
+    (IStudentService studentService): ControllerBase
 {
     [HttpPost]
     public async Task<IActionResult> Create(CreateStudentDto request, CancellationToken cancellationToken)
     {
-        ErrorOr<Guid> response = await studentService.CreateAsync(request, cancellationToken);
+        ErrorOr<Guid> errorOr = await studentService.CreateAsync(request, cancellationToken);
 
-        if (response.IsError)
+        if (errorOr.IsError)
         {
-            return BadRequest(response.FirstError);
+            return BadRequest(errorOr.FirstError);
         }
+
+        var response = new ResponseDto<Guid>() { Data = errorOr.Value };
 
         return Ok(response);
     }
@@ -25,7 +28,9 @@ public class StudentsController
     [HttpGet]
     public async Task<IActionResult> GetAllStudent(CancellationToken cancellationToken)
     {
-        var response = await studentService.GetAllStudentAsync(cancellationToken);
+        var errorOr = await studentService.GetAllStudentAsync(cancellationToken);
+
+        var response = new ResponseDto<IEnumerable<User>>() { Data = errorOr.Value };
 
         return Ok(response);
     }

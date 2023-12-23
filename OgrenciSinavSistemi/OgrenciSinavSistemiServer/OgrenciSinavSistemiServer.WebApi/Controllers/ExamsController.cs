@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OgrenciSinavSistemiServer.WebApi.DTOs;
 using OgrenciSinavSistemiServer.WebApi.Models.Exams;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OgrenciSinavSistemiServer.WebApi.Controllers;
 [Route("api/[controller]/[action]")]
@@ -12,7 +13,9 @@ public sealed class ExamsController(
     [HttpPost]
     public async Task<IActionResult> Create(CreateExamDto request, CancellationToken cancellationToken)
     {
-        ErrorOr<Guid> response = await examService.CreateAsync(request, cancellationToken);       
+        ErrorOr<Guid> errorOr = await examService.CreateAsync(request, cancellationToken);
+
+        var response = new ResponseDto<Guid>() { Data = errorOr.Value };
 
         return Ok(response);
     }
@@ -20,9 +23,10 @@ public sealed class ExamsController(
     [HttpGet]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
     {
-        var response = await examService.GetAllAsync(cancellationToken);
-        return Ok(response);
-    }
+        var errorOr = await examService.GetAllAsync(cancellationToken);
 
-    //21:36 görüşelim
+        var response = new ResponseDto<IEnumerable<Exam>>() { Data = errorOr.Value };
+
+        return Ok(response);
+    }   
 }

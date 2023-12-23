@@ -17,20 +17,14 @@ public static class DependencyInjection
     public static IServiceCollection AddDependencyInjection(
         this IServiceCollection services)
     {
-        //services
-        //    .Scan(action => action
-        //    .FromAssemblies(Assembly.GetExecutingAssembly())
-        //    .AddClasses(publicOnly: false)
-        //    .UsingRegistrationStrategy(RegistrationStrategy.Skip)
-        //    .AsMatchingInterface()
-        //    .WithScopedLifetime()
-        //);
-        services.AddScoped<IJwtService, JwtService>();
-        services.AddScoped<IUserRepository, UserRepository>();
-        services.AddScoped<IAuthService, AuthService>();
-        services.AddScoped<IExamRepository, ExamRepository>();
-        services.AddScoped<IExamService, ExamService>();
-        services.AddScoped<IStudenService, StudentService>();
+        services
+            .Scan(action => action
+            .FromAssemblies(Assembly.GetExecutingAssembly())
+            .AddClasses(publicOnly: false)
+            .UsingRegistrationStrategy(RegistrationStrategy.Skip)
+            .AsMatchingInterface()
+            .WithScopedLifetime()
+        );
 
         return services;
     }
@@ -68,6 +62,8 @@ public static class DependencyInjection
                     secretKey ?? ""))
             };
         });
+
+        services.AddAuthorization();
 
         return services;
     }

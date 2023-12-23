@@ -11,12 +11,14 @@ public sealed class AuthController(IAuthService userService) : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Login(LoginDto request, CancellationToken cancellationToken)
     {
-        ErrorOr<string?> response = await userService.LoginAsync(request, cancellationToken);
+        ErrorOr<string?> errorOr = await userService.LoginAsync(request, cancellationToken);
 
-        if (response.IsError)
+        if (errorOr.IsError)
         {
-            return BadRequest(response.FirstError);
+            return BadRequest(errorOr.FirstError);
         }
+
+        var response = new ResponseDto<string>() { Data = errorOr.Value };
 
         return Ok(response);
     }    

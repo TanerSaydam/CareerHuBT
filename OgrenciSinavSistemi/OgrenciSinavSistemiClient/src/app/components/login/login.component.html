@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-center align-items-center" style="height: 98vh;">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header">
+                <h1>Giriş Sayfası</h1>
+                <p>Giriş yapmak için bilgilerinizi yazın</p>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label>Kullanıcı Adı</label>
+                    <input type="text" [(ngModel)]="userName" class="form-control" placeholder="kAdi">
+                </div>
+                <div class="form-group mt-1">
+                    <button (click)="signIn()" class="btn btn-dark w-100">Giriş Yap</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

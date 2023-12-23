@@ -1,4 +1,7 @@
 # Career HuBT - WebApi Eğitimi
+## 26.Ders İşlenenler (23.12.2023)
+- Öğrenci Sınav Sistemini Kodlamaya Devam Ettik
+
 ## 25.Ders İşlenenler (22.12.2023)
 - Öğrenci Sınav Sistemini Kodlamaya Devam Ettik
 

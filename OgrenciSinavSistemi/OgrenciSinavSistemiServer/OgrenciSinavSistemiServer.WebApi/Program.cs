@@ -41,8 +41,6 @@ using (var scoped = app.Services.CreateScope())
     }   
 }
 
-app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

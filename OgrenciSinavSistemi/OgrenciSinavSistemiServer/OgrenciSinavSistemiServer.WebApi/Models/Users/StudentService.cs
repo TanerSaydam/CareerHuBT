@@ -7,7 +7,7 @@ namespace OgrenciSinavSistemiServer.WebApi.Models.Users;
 
 public sealed class StudentService(
     IUserRepository userRepository,
-    IUnitOfWork unitOfWork) : IStudenService
+    IUnitOfWork unitOfWork) : IStudentService
 {
     public async Task<ErrorOr<Guid>> CreateAsync(CreateStudentDto request, CancellationToken cancellationToken = default)
     {
@@ -31,7 +31,7 @@ public sealed class StudentService(
         return user.Id;
     }
 
-    public async Task<ErrorOr<List<User>>> GetAllStudentAsync(CancellationToken cancellationToken = default)
+    public async Task<ErrorOr<IEnumerable<User>>> GetAllStudentAsync(CancellationToken cancellationToken = default)
     {
         return await userRepository.GetAll().Where(p => !p.IsTeacher).OrderBy(p => p.Name).ToListAsync(cancellationToken);
     }

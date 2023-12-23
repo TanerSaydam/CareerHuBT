@@ -1,5 +1,4 @@
 ﻿using ErrorOr;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using OgrenciSinavSistemiServer.WebApi.Abstractions;
 using OgrenciSinavSistemiServer.WebApi.DTOs;
@@ -40,10 +39,10 @@ public sealed class ExamService(
         return exam.Id;
     }
 
-    public async Task<ErrorOr<List<Exam>>> GetAllAsync(CancellationToken cancellationToken = default)
+    public async Task<ErrorOr<IEnumerable<Exam>>> GetAllAsync(CancellationToken cancellationToken = default)
     {
         var response = await examRepository.GetAll().ToListAsync(cancellationToken);
 
         return response;
-    }
+    }    
 }
