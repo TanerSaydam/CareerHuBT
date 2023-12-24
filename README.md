@@ -1,4 +1,8 @@
 # Career HuBT - WebApi Eğitimi
+## 27.Ders İşlenenler (24.12.2023)
+- Öğrenci Sınav Sistemi Bitti
+- Blazor ile Todo Uygulaması Yaptık
+
 ## 26.Ders İşlenenler (23.12.2023)
 - Öğrenci Sınav Sistemini Kodlamaya Devam Ettik
 

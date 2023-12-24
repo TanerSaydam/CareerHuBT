@@ -18,6 +18,10 @@ export class HomeComponent {
     private http: HttpClient,
     private router: Router
   ){
+    if(this.auth.user.IsTeacher === "True"){
+      this.router.navigateByUrl("/admin")
+    }    
+    
     this.getExamList();
   }
 

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B70Vg/vyTCPzRX5CJWseI6P9JXH45OIDKLWPffI9KsQ=",
+  "Source": "TransactionWebApi",
+  "BasePath": "_content/TransactionWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

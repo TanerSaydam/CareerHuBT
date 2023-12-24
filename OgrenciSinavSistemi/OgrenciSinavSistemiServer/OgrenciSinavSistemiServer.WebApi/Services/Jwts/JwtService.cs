@@ -18,6 +18,7 @@ public class JwtService(IOptions<Jwt> jwt) : IJwtService
         {
             new Claim("UserId", user.Id.ToString()),
             new Claim("UserName", user.Name),
+            new Claim("IsTeacher", user.IsTeacher.ToString())
         };
 
         JwtSecurityToken jwtSecurity = new(

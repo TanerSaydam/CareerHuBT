@@ -2,7 +2,7 @@
 
 public sealed record CreateExamDto(
     string Title,
-    List<CreateExamQuestionDto> ExamQuestions);
+    List<CreateExamQuestionDto> Questions);
 
 public sealed record CreateExamQuestionDto(
     string Question,

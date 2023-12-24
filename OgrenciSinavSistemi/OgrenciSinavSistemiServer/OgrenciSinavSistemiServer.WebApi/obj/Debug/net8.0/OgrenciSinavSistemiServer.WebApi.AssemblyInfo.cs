@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OgrenciSinavSistemiServer.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b6d10e9f9689dc08d13323d7a9467e9fef4337")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d99fc7a7a6addd7502b04569391bd25e1a7fed9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OgrenciSinavSistemiServer.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OgrenciSinavSistemiServer.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

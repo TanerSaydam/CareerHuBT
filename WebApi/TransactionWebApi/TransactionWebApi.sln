@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionWebApi", "TransactionWebApi.csproj", "{5BDBF3C2-BD7B-4204-8D12-B718FB4BF127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BDBF3C2-BD7B-4204-8D12-B718FB4BF127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDBF3C2-BD7B-4204-8D12-B718FB4BF127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDBF3C2-BD7B-4204-8D12-B718FB4BF127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDBF3C2-BD7B-4204-8D12-B718FB4BF127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFB01F4F-8968-46FC-B8FB-46965A62696D}
+	EndGlobalSection
+EndGlobal

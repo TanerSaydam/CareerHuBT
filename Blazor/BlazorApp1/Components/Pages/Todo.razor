@@ -1,0 +1,98 @@
+﻿@page "/todo"
+@using BlazorApp1.Context
+@rendermode InteractiveServer
+
+<div class="container">
+    <h3>Todo</h3>
+    @if (!isUpdateFormActive)
+    {
+        <div class="col-3">
+            <input class="form-control" @bind="newTodo" />
+            <button class="btn btn-dark mt-2" @onclick="Add">Add</button>
+        </div>
+    }
+    else
+    {
+        <div class="col-3">
+            <input class="form-control" @bind="updateTodo" />
+            <button class="btn btn-dark mt-2" @onclick="Update">Update</button>
+            <button class="btn btn-dark mt-2" @onclick="Cancel">Cancel</button>
+        </div>
+    }    
+    <hr />
+
+    <ul class="mt-2">
+        @foreach (var item in Todos)  
+        {
+            <li>
+                @item.Work
+                <button class="btn btn-outline-warning me-2" @onclick="()=> Get(item.Id, item.Work)">Update</button>
+                <button class="btn btn-outline-danger btn-sm" @onclick="() => Remove(item.Id)">Remove</button>
+            </li>
+        }
+    </ul>
+</div>
+@code {
+    ApplicationDbContext context = new();
+
+    public Todo()
+    {
+        GetAll();
+    }
+
+    public List<TodoModel> Todos = new();
+    string newTodo = "";
+    int updateId = 0;
+    string updateTodo = "";
+    bool isUpdateFormActive = false;
+
+    private void Add()
+    {       
+        context.Add(new TodoModel()
+            {
+                Work = newTodo
+            });
+        context.SaveChanges();       
+        newTodo = string.Empty;
+
+        GetAll();
+    }
+
+    private void Get(int id, string work)
+    {        
+        isUpdateFormActive = true;
+        updateId = id;
+        updateTodo = work;
+    }
+
+    private void Update()
+    {
+        TodoModel todo = context.Todos.Find(updateId);
+        todo.Work = updateTodo;
+
+        context.SaveChanges();
+
+        isUpdateFormActive = false;
+
+        GetAll();
+    }
+
+    private void Cancel()
+    {
+        isUpdateFormActive = false;
+    }
+
+    private void Remove(int id)
+    {
+        TodoModel todo = context.Todos.Find(id);
+        context.Remove(todo);
+        context.SaveChanges();
+
+        GetAll();
+    }
+
+    private void GetAll()
+    {
+        Todos = context.Todos.ToList();
+    }
+}

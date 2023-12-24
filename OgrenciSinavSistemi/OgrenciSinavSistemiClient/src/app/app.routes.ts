@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { inject } from '@angular/core';
 import { AuthService } from './services/auth.service';
+import { AdminComponent } from './components/admin/admin.component';
 
 export const routes: Routes = [
     {
@@ -23,6 +24,10 @@ export const routes: Routes = [
             {
                 path: "quiz/:value",
                 component: QuizComponent
+            },
+            {
+                path: "admin",
+                component: AdminComponent
             }
         ]
     }

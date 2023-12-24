@@ -12,7 +12,7 @@ public sealed class ExamService(
     public async Task<ErrorOr<Guid>> CreateAsync(CreateExamDto request, CancellationToken cancellationToken = default)
     {
         List<ExamQuestion> examQuestions = new();
-        foreach (var question in request.ExamQuestions)
+        foreach (var question in request.Questions)
         {
             ExamQuestion examQuestion = new()
             {

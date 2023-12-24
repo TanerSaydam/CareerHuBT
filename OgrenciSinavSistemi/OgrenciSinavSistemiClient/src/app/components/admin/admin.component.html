@@ -1,0 +1,123 @@
+<h1>Admin Page</h1>
+<h1>21:19 görüşelim</h1>
+<button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#addModal">Sınav Ekle</button>
+<table class="table table-bordered mt-2">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Sınav Adı</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(exam of exams; track exam){
+        <tr>
+            <td>{{$index + 1}}</td>
+            <td>{{exam.title}}</td>
+            <td>
+                <button class="btn btn-outline-dark me-1" (click)="setExamForStudents.examId = exam.id" data-bs-toggle="modal" data-bs-target="#addStudentExamsModal">Öğrenciye Sınav Ata</button>
+                <button class="btn btn-outline-danger">Sil</button>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+<div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Sınav Ekle</h1>
+                <button type="button" class="btn-close" id="addModalCloseBtn" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Sınav Adı</label>
+                    <input type="text" class="form-control" [(ngModel)]="addExam.title">
+                </div>
+                <button (click)="addQuestion()" class="btn btn-dark w-100 mt-2">+</button>
+                @for(data of addExam.questions; track data){
+                    <div class="card mt-2">                        
+                        <div class="card-header form-group mt-2">
+                            <label>Soru</label>
+                            <input type="text" [(ngModel)]="data.question" class="form-control">
+                        </div>
+                        <div class="row card-body mt-2">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Cevap A</label>
+                                    <input type="text" [(ngModel)]="data.answerA" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Cevap B</label>
+                                    <input type="text" [(ngModel)]="data.answerB" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Cevap C</label>
+                                    <input type="text" [(ngModel)]="data.answerC" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Cevap D</label>
+                                    <input type="text" [(ngModel)]="data.answerD" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container form-group mt-2 mb-2">
+                            <label>Doğru Cevap</label>
+                            <input type="text" [(ngModel)]="data.correctAnswer" class="form-control">
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="modal-footer">                
+                <button type="button" (click)="createExam()" class="btn btn-primary w-100">Create Exam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="addStudentExamsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5">Modal title</h1>
+          <button type="button" class="btn-close" id="addStudentExamsModalCloseBtn" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>İşaret</th>
+                    <th>Öğrenci</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(student of students; track student){
+                    <tr>
+                        <td>
+                            <input type="checkbox" (change)="addStudentExam($event, student.id)">
+                        </td>
+                        <td>
+                            {{student.name}}
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+          </table>
+        </div>
+        <div class="modal-footer">          
+          <button type="button" (click)="setExam()" class="btn btn-primary w-100">Sınav Ata</button>
+        </div>
+      </div>
+    </div>
+  </div>
